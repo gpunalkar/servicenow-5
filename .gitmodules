@@ -1,0 +1,9 @@
+[submodule "modules/kacela"]
+	path = modules/kacela
+	url = https://github.com/noah-goodrich/kohana-kacela.git
+[submodule "modules/formo"]
+	path = modules/formo
+	url = https://github.com/bmidget/kohana-formo.git
+[submodule "modules/menu"]
+	path = modules/menu
+	url = https://github.com/b263/kohana-menu.git

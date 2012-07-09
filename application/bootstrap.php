@@ -107,7 +107,7 @@ else
  */
 Kohana::init(array(
 	'base_url'   => '/',
-	'index_file' => false,
+	'index_file' => true,
 ));
 
 /**
@@ -133,26 +133,21 @@ Kohana::modules(array
 		// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 		// 'unittest'   => MODPATH.'unittest',   // Unit testing
 		// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+		'boldchat' => MODPATH.'boldchat',
 		'analytics' => MODPATH.'analytics',
 		'assets'	=> MODPATH.'assets',  // Benchmarking tool
-		'breadcrumb' => MODPATH.'breadcrumb',
 		'site' => MODPATH.'site',
 		//'database' => MODPATH.'database',
 		//'orm' => MODPATH.'orm',
 		'menu' => MODPATH.'menu',
 		'sidebar' => MODPATH.'sidebar',
-		'kable' => MODPATH.'kable',
 		'kacela' => MODPATH.'kacela',
-		'komponent' => MODPATH.'komponent',
 		'formo' => MODPATH.'formo',
-		'bonafide' => MODPATH.'bonafide',
-		'xls' => MODPATH.'xls',
 		'cache' => MODPATH.'cache',
-		'boldchat' => MODPATH.'boldchat',
 	)
 );
 
-\Cookie::$salt = '#alksdjf$lkasjfd@lkn!jnoijaoidfj(kn%lkajdjifoijoija';
+\Cookie::$salt = '#alksdjf$lkasjfd@lkn!jnoijaoidfj(jsl#k2h%ji9oijoija';
 
 /**
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
@@ -160,7 +155,7 @@ Kohana::modules(array
  */
 try
 {
-	require APPPATH.'/config/routes.php';
+	require APPPATH.'config/routes.php';
 }
 catch (Exception $e)
 {
