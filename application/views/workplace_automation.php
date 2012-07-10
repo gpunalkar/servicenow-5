@@ -1,0 +1,7 @@
+<div class="padded">
+	<div class="clear space"></div>
+	<h3 class="emphasis">Matrix42 Physical Workplace Management</h3>
+	<p>Matrix42 Physical Workplace Management allows for the centralized management of all corporate desktops, notebooks, configurations and software assets running on Windows, Mac and Linux and can easily be integrated with existing IT infrastructure. Administrators can continuously manage and enforce corporate policy and ensure ongoing compliance. Matrix42 makes it easy to manage every phase in the client lifecycle – from provisioning to retirement.</p>
+	<p>Users are able to easily complete many help desk functions on their own such as provisioning services, adding or reinstalling software, and recovering their computer. This lowers the overall desktop management costs and allows IT administrators to spend their time on more strategic projects.</p>
+	<p>For organizations that are using Microsoft SCCM, <span class="emphasis">Matrix42 Enterprise Manager</span> provides the connectors and APIs. This enables all three solutions that are integrated with ServiceNow to also work seamlessly with SCCM to utilize it for extended package management, advanced rollout management, optimized delegation management and enhanced end-user self-service.</p>
+</div><!-- padded -->

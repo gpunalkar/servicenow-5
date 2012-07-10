@@ -1,0 +1,6 @@
+<div class="padded">
+	<div class="clear space"></div>
+	<h3 class="emphasis">Matrix42 Virtual Workplace Management</h3>
+	<p>Tagtägliche Abläufe wie das Bestellen und Beziehen virtueller Desktops, von Software, Hardware oder anderen IT-Services können sich für die IT-Abteilung ganz schön kompliziert und zeitaufwändig gestalten. Die Anwender wiederum erleben den gesamten Bestellprozess als frustrierend. Dank Matrix42 ist der Umstieg auf virtuelle Desktops und Applikationen ganz einfach und kostengünstig, denn die Verwaltung, Verfolgung und Bereitstellung virtueller Desktops läuft automatisiert ab.</p>
+	<p>Mit Matrix42 Virtual Workplace Management ist das Bestellen von virtuellen Desktops, Applikationen, Services und mobilen Zugangsmöglichkeiten für die Anwender ein Kinderspiel. Das vollautomatische System erledigt schnell und effizient die Provisionierung, Lizenzierung und das Asset Management für sämtliche Endgeräte. So profitieren Unternehmen von den Vorteilen der Virtualisierung, ohne all die damit normalerweise verbundenen Kosten in Kauf nehmen zu müssen.</p>
+</div><!-- padded -->

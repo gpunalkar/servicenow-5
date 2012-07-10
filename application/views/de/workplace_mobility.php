@@ -1,0 +1,6 @@
+<div class="padded">
+	<div class="clear space"></div>
+	<h3 class="emphasis">Matrix42 Mobile Workplace Management</h3>
+	<p>Die Mobile Device und WLAN Management Lösung von Matrix42 ist sehr benutzerfreundlich und kann unternehmensweit eingesetzt werden, um sämtliche mobilen Endgeräte im Unternehmen zu verfolgen, zu überwachen und zu verwalten. Matri42 Mobile Workplace Management unterstützt die IT-Abteilung und den Helpdesk mit einer Echtzeit-Übersicht des gesamten mobilen Gerätebestands. Das steigert die Produktivität der mobilen Mitarbeiter ebenso wie die Rentabilität mobiler Applikationen.</p>
+	<p>Egal ob ein Unternehmen basierend auf entsprechenden Richtlinien die Nutzung von privaten Endgeräten erlaubt („Bring Your Own Device“ bzw. BYOD) oder seine Mitarbeiter mit unternehmenseigenen mobilen Geräten versorgt – die Anwender können diese Geräte über den Service-Katalog beantragen oder anmelden, Anwendungen aufspielen und unter Einhaltung der unternehmensweiten Richtlinien verwalten. Zudem können beliebige Mobilplattformen der Anwender unterstützt werden.</p>
+</div><!-- padded -->
