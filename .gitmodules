@@ -7,3 +7,6 @@
 [submodule "modules/menu"]
 	path = modules/menu
 	url = https://github.com/b263/kohana-menu.git
+[submodule "modules/bonafide"]
+	path = modules/bonafide
+	url = https://github.com/shadowhand/bonafide.git

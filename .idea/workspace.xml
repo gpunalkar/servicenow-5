@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61617ff2-d36d-4acf-ae4c-bceb37abe954" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/de/banner.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/de/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/de/lead_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/de/workplace_automation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/de/workplace_mobility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/de/workplace_virtualization.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/workplace_automation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/workplace_mobility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/workplace_virtualization.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/bonafide" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/bonafide/mechanism/a1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/kohana/bonafide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/bonafide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitmodules" afterPath="$PROJECT_DIR$/.gitmodules" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/controller/public/index.php" afterPath="$PROJECT_DIR$/application/classes/controller/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/environment.php" afterPath="$PROJECT_DIR$/application/config/environment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/i18n/de.php" afterPath="$PROJECT_DIR$/application/i18n/de.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lead_form.php" afterPath="$PROJECT_DIR$/application/views/lead_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bootstrap.php" afterPath="$PROJECT_DIR$/application/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/model/model.php" afterPath="$PROJECT_DIR$/application/classes/model/model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/de/lead_form.php" afterPath="$PROJECT_DIR$/application/views/de/lead_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/style.less" afterPath="$PROJECT_DIR$/assets/less/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/vars.less" afterPath="$PROJECT_DIR$/assets/less/vars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/site/classes/controller/site.php" afterPath="$PROJECT_DIR$/modules/site/classes/controller/site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/site/views/de/sidebar/downloads.php" afterPath="$PROJECT_DIR$/modules/site/views/de/sidebar/downloads.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/site/views/de/sidebar/support.php" afterPath="$PROJECT_DIR$/modules/site/views/de/sidebar/support.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/site/views/sidebar/downloads.php" afterPath="$PROJECT_DIR$/modules/site/views/sidebar/downloads.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/site/views/sidebar/support.php" afterPath="$PROJECT_DIR$/modules/site/views/sidebar/support.php" />
     </list>
     <ignored path="servicenow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,24 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="workplace_mobility.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/de/workplace_mobility.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="21" selection-start="1098" selection-end="1098" vertical-scroll-proportion="-3.2">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/site/classes/controller/site.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="-11.52">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="public.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/site/classes/controller/public.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,56 +51,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="de.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/i18n/de.php">
+      <file leaf-file-name="lead_form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/de/lead_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="75" selection-start="3313" selection-end="3313" vertical-scroll-proportion="-12.92">
+            <state line="1" column="86" selection-start="110" selection-end="110" vertical-scroll-proportion="-0.64">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="lead_form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/de/lead_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="46" selection-start="548" selection-end="548" vertical-scroll-proportion="-7.68">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lead_form.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/lead_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="18" selection-start="973" selection-end="973" vertical-scroll-proportion="0.3760282">
+            <state line="17" column="24" selection-start="670" selection-end="670" vertical-scroll-proportion="-7.04">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
+      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2729" column="1" selection-start="43775" selection-end="43775" vertical-scroll-proportion="-28.5">
+            <state line="129" column="69" selection-start="3560" selection-end="3560" vertical-scroll-proportion="-8.44">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/less/style.less">
+      <file leaf-file-name="bonafide.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/bonafide.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="5" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0">
+            <state line="9" column="58" selection-start="300" selection-end="300" vertical-scroll-proportion="-5.76">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vars.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/less/vars.less">
+      <file leaf-file-name="bonafide.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/classes/kohana/bonafide.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+            <state line="84" column="46" selection-start="2087" selection-end="2087" vertical-scroll-proportion="-14.84">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a1.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/classes/bonafide/mechanism/a1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="53" selection-start="306" selection-end="306" vertical-scroll-proportion="0.23104693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/classes/model/model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="27" selection-start="145" selection-end="145" vertical-scroll-proportion="-7.68">
+              <folding>
+                <element signature="e#6#68#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,22 +129,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/modules/site/views/de/sidebar/downloads.php" />
-        <option value="$PROJECT_DIR$/modules/site/views/de/sidebar/support.php" />
-        <option value="$PROJECT_DIR$/application/views/workplace_automation.php" />
-        <option value="$PROJECT_DIR$/application/views/de/workplace_automation.php" />
-        <option value="$PROJECT_DIR$/application/views/workplace_virtualization.php" />
         <option value="$PROJECT_DIR$/application/views/de/workplace_virtualization.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/public/index.php" />
         <option value="$PROJECT_DIR$/application/views/workplace_mobility.php" />
         <option value="$PROJECT_DIR$/application/views/de/workplace_mobility.php" />
         <option value="$PROJECT_DIR$/modules/site/classes/controller/site.php" />
         <option value="$PROJECT_DIR$/assets/less/style.less" />
-        <option value="$PROJECT_DIR$/application/views/de/lead_form.php" />
         <option value="$PROJECT_DIR$/assets/less/vars.less" />
         <option value="$PROJECT_DIR$/application/i18n/de.php" />
-        <option value="$PROJECT_DIR$/assets/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/application/views/lead_form.php" />
+        <option value="$PROJECT_DIR$/application/views/de/lead_form.php" />
+        <option value="$PROJECT_DIR$/assets/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/application/bootstrap.php" />
+        <option value="$PROJECT_DIR$/application/config/bonafide.php" />
+        <option value="$PROJECT_DIR$/application/classes/model/model.php" />
+        <option value="$PROJECT_DIR$/application/bonafide/mechanism/a1.php" />
+        <option value="$PROJECT_DIR$/application/classes/kohana/bonafide.php" />
       </list>
     </option>
   </component>
@@ -672,6 +652,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servicenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servicenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servicenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servicenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servicenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servicenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bonafide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mechanism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -686,9 +736,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/classes/bonafide" />
+      <recent name="$PROJECT_DIR$/application/classes" />
       <recent name="$PROJECT_DIR$/application/classes/controller/public" />
       <recent name="$PROJECT_DIR$/application/classes/controller" />
-      <recent name="$PROJECT_DIR$/application/classes" />
     </key>
   </component>
   <component name="RunManager">
@@ -746,7 +797,11 @@
       <created>1341947580682</created>
       <updated>1341947580682</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="setup english content and german content">
+      <created>1341953242585</created>
+      <updated>1341953242585</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -757,8 +812,9 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="1924" y="0" width="259" height="800" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="1924" y="0" width="259" height="800" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -767,7 +823,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -810,7 +865,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added missing assets files to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup english content and german content" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -826,53 +881,12 @@
     <MESSAGE value="Setup the site" />
     <MESSAGE value="Added missing files to git" />
     <MESSAGE value="Added missing assets files to git" />
+    <MESSAGE value="setup english content and german content" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/classes/controller/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="42" selection-start="316" selection-end="334" vertical-scroll-proportion="-7.04">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/de/workplace_mobility.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="1098" selection-end="1098" vertical-scroll-proportion="-3.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/de/banner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="359" selection-end="359" vertical-scroll-proportion="-4.48">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="5" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/vars.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/site/classes/controller/site.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="-11.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/banner.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="21" selection-start="0" selection-end="359" vertical-scroll-proportion="-4.48">
@@ -908,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2729" column="1" selection-start="43775" selection-end="43775" vertical-scroll-proportion="-28.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/model/lead.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="109" column="42" selection-start="2522" selection-end="2522" vertical-scroll-proportion="-9.12">
@@ -931,14 +938,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/de/lead_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="46" selection-start="548" selection-end="548" vertical-scroll-proportion="-7.68">
+        <state line="1" column="86" selection-start="110" selection-end="110" vertical-scroll-proportion="-0.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2599" column="16" selection-start="40741" selection-end="40741" vertical-scroll-proportion="0.25448027">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lead_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="18" selection-start="973" selection-end="973" vertical-scroll-proportion="0.3760282">
+        <state line="17" column="24" selection-start="670" selection-end="670" vertical-scroll-proportion="-7.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/model/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="145" selection-end="145" vertical-scroll-proportion="-7.68">
+          <folding>
+            <element signature="e#6#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="69" selection-start="3560" selection-end="3560" vertical-scroll-proportion="-8.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/bonafide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="58" selection-start="300" selection-end="300" vertical-scroll-proportion="-5.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/kohana/bonafide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="46" selection-start="2087" selection-end="2087" vertical-scroll-proportion="-14.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/bonafide/mechanism/a1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="53" selection-start="306" selection-end="306" vertical-scroll-proportion="0.23104693">
           <folding />
         </state>
       </provider>

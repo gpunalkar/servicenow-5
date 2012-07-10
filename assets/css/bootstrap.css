@@ -2615,9 +2615,6 @@ button.close {
 	color: #333333;
 	text-decoration: none;
 	background-color: #e6e6e6;
-	*background-color: #d9d9d9;
-	/* Buttons in IE7 don't get borders, so darken on hover */
-
 	background-position: 0 -15px;
 	-webkit-transition: background-position 0.1s linear;
 	-moz-transition: background-position 0.1s linear;
@@ -2734,13 +2731,12 @@ button.close {
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] {
-	background-color: #0055cc;
-	*background-color: #004ab3;
+	background-color: #ff8c00;
 }
 
 .btn-primary:active,
 .btn-primary.active {
-	background-color: #004099 \9;
+	background-color: #cc7000 \9;
 }
 
 .btn-warning {

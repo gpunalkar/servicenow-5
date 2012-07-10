@@ -144,6 +144,7 @@ Kohana::modules(array
 		'kacela' => MODPATH.'kacela',
 		'formo' => MODPATH.'formo',
 		'cache' => MODPATH.'cache',
+		'bonafide' => MODPATH.'bonafide',
 	)
 );
 
