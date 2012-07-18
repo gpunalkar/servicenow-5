@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/bonafide" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/modules/formo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/modules/kacela" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/modules/menu" vcs="Git" />
