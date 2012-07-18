@@ -112,7 +112,7 @@ class Controller_Site extends Controller_Template
 
 		if(!isset($this->_sidebar))
 		{
-			$default_sidebar = array(\View::factory('sidebar/downloads'));
+			$default_sidebar = array(\View::factory('sidebar/downloads', array('language' => true)));
 			$this->_sidebar = \Sidebar::factory($default_sidebar)->render();
 		}
 
