@@ -1,7 +1,6 @@
 <div class="well margin-right">
 	<h3>Downloads</h3>
 	<ul>
-		<li><a href="/assets/uploads/servicenow_en_web.pdf">Promotional Flyer</a></li>
-		<li><a href="/assets/uploads/servicenow_press_release.pdf">Press Release</a></li>
+		<li><a href="/assets/uploads/servicenow_de_web.pdf">Promotional Flyer</a></li>
 	</ul>
 </div><!-- well -->
