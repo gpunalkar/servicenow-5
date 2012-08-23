@@ -145,6 +145,7 @@ Kohana::modules(array
 		'formo' => MODPATH.'formo',
 		'cache' => MODPATH.'cache',
 		'bonafide' => MODPATH.'bonafide',
+		'subdomain' => MODPATH.'subdomain',
 	)
 );
 

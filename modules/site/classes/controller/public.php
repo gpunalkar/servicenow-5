@@ -2,18 +2,8 @@
 
 class Controller_Public extends Controller_Site {
 
-	public $template = 'public';
-
-	protected $_section = 'public';
-
 	public function before()
 	{
-		$this->_title = "Matrix42 &amp; ServiceNow";
-
-		$this->_banner = View::factory('banner');
-
-		$this->_lead_form = $this->lead_form(true);
-
 		parent::before();
 	}
 

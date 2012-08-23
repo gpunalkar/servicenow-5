@@ -212,7 +212,10 @@ class Assets_Core {
 		$compiler = new lessc();
 
 		// Importing should be done by the module so that modified times can be compared
-		$compiler->importDisabled = TRUE;
+		//$compiler->importDisabled = FALSE;
+
+		//search import folders
+		$compiler->setImportDir(array('assets/less/', 'assets/less/bootstrap'));
 
 		// Parse the LESS file and convert to CSS
 		$css = $compiler->parse($less);

@@ -30,6 +30,9 @@ class Controller_Site extends Controller_Template
 
 	protected $_section;
 
+	protected $_theme_name = null;
+	protected $_theme_path = 'themes/';
+
 	protected $_campaign;
 
 	protected $_modal;
@@ -90,7 +93,6 @@ class Controller_Site extends Controller_Template
 			(
 				'vars',
 				'jquery.ui',
-				'style',
 				'icons',
 				'forms',
 			)
@@ -124,9 +126,9 @@ class Controller_Site extends Controller_Template
 				->set('type', $this->_modal_type);
 		}
 
-		$this->template->header = \View::factory('header');
+		$this->template->header = \View::factory($this->_theme_path.$this->_theme_name.'/header');
 		$this->template->nav = \View::factory('nav');
-		$this->template->footer = \View::factory('footer');
+		$this->template->footer = \View::factory($this->_theme_path.$this->_theme_name.'/footer');
 
 		if ($this->request->is_ajax())
 		{

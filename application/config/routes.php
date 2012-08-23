@@ -1,4 +1,5 @@
 <?php
+//\Subdomain_Request::$subdomain = 'promo';
 Route::set
 (
 	'default',
@@ -8,7 +9,28 @@ Route::set
 (
 	array
 	(
-		'directory' => 'public',
+		'directory' => 'servicenow',
+		'controller' => 'index',
+	)
+);
+
+Route::set
+(
+	'promo',
+	'(<action>(/<id>))'
+)
+->subdomains
+(
+	array
+	(
+		'promo'
+	)
+)
+->defaults
+(
+	array
+	(
+		'directory' => 'promo',
 		'controller' => 'index',
 	)
 );
