@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61617ff2-d36d-4acf-ae4c-bceb37abe954" name="Default" comment="Push to add secondary subdomain promo while maintaining servicenow subdomain handling">
+    <list default="true" id="61617ff2-d36d-4acf-ae4c-bceb37abe954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/assets/vendor/lessphp" afterPath="$PROJECT_DIR$/modules/assets/vendor/lessphp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
@@ -38,7 +38,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="5" selection-start="295" selection-end="295" vertical-scroll-proportion="0.71119136">
+            <state line="35" column="2" selection-start="354" selection-end="354" vertical-scroll-proportion="1.0108303">
               <folding />
             </state>
           </provider>
@@ -1231,7 +1231,11 @@
       <created>1346175831189</created>
       <updated>1346175831189</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Test routing for subdomain">
+      <created>1346178719435</created>
+      <updated>1346178719435</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1316,7 +1320,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push to add secondary subdomain promo while maintaining servicenow subdomain handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test routing for subdomain" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1341,6 +1345,7 @@
     <MESSAGE value="Changed home logo link to link to main homepage" />
     <MESSAGE value="Tweaked site to allow for multiple themes and put themes into appropriate folders. Updated lessphp and added bootstrap twitter less version." />
     <MESSAGE value="Push to add secondary subdomain promo while maintaining servicenow subdomain handling" />
+    <MESSAGE value="Test routing for subdomain" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1453,7 +1458,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="5" selection-start="295" selection-end="295" vertical-scroll-proportion="0.71119136">
+        <state line="35" column="2" selection-start="354" selection-end="354" vertical-scroll-proportion="1.0108303">
           <folding />
         </state>
       </provider>

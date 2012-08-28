@@ -34,5 +34,3 @@ Route::set
 		'controller' => 'index',
 	)
 );
-
-echo \Debug::vars(\Subdomain_Request::$subdomain);
