@@ -38,7 +38,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="2" selection-start="354" selection-end="354" vertical-scroll-proportion="1.0108303">
+            <state line="1" column="41" selection-start="47" selection-end="47" vertical-scroll-proportion="-0.18411553">
               <folding />
             </state>
           </provider>
@@ -101,7 +101,16 @@
       <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="4" selection-start="780" selection-end="780" vertical-scroll-proportion="28.686274">
+            <state line="99" column="18" selection-start="2348" selection-end="2352" vertical-scroll-proportion="-31.058823">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/local.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="20" selection-start="109" selection-end="109" vertical-scroll-proportion="-4.48">
               <folding />
             </state>
           </provider>
@@ -1235,7 +1244,11 @@
       <created>1346178719435</created>
       <updated>1346178719435</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="revert routing test">
+      <created>1346178853399</created>
+      <updated>1346178853399</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1320,7 +1333,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test routing for subdomain" />
+    <option name="LAST_COMMIT_MESSAGE" value="revert routing test" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1346,18 +1359,12 @@
     <MESSAGE value="Tweaked site to allow for multiple themes and put themes into appropriate folders. Updated lessphp and added bootstrap twitter less version." />
     <MESSAGE value="Push to add secondary subdomain promo while maintaining servicenow subdomain handling" />
     <MESSAGE value="Test routing for subdomain" />
+    <MESSAGE value="revert routing test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/formo/classes/formo/driver/checkboxes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="55" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/formo/classes/formo/core/driver/checkboxes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="40" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
@@ -1407,13 +1414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="4" selection-start="780" selection-end="780" vertical-scroll-proportion="28.686274">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="3" selection-start="384" selection-end="384" vertical-scroll-proportion="-4.392157">
@@ -1456,9 +1456,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="18" selection-start="2348" selection-end="2352" vertical-scroll-proportion="-31.058823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="109" selection-end="109" vertical-scroll-proportion="-4.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="2" selection-start="354" selection-end="354" vertical-scroll-proportion="1.0108303">
+        <state line="1" column="41" selection-start="47" selection-end="47" vertical-scroll-proportion="-0.18411553">
           <folding />
         </state>
       </provider>

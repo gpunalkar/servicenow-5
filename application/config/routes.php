@@ -1,5 +1,5 @@
 <?php
-//\Subdomain_Request::$subdomain = 'promo';
+\Subdomain_Request::$subdomain = 'promo';
 Route::set
 (
 	'default',
@@ -32,5 +32,6 @@ Route::set
 	(
 		'directory' => 'promo',
 		'controller' => 'index',
+		'action' => 'index',
 	)
 );
