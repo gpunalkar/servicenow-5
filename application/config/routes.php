@@ -23,7 +23,7 @@ Route::set
 (
 	array
 	(
-		'promo'
+		'promo',
 	)
 )
 ->defaults
@@ -34,3 +34,5 @@ Route::set
 		'controller' => 'index',
 	)
 );
+
+echo \Debug::vars(\Subdomain_Request::$subdomain);
