@@ -13,7 +13,7 @@ Route::set
 		'controller' => 'index',
 	)
 );
-
+/*
 Route::set
 (
 	'promo',
@@ -35,3 +35,4 @@ Route::set
 		'action' => 'index',
 	)
 );
+*/

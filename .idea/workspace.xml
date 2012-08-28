@@ -38,7 +38,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="1" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0866426">
+            <state line="18" column="12" selection-start="210" selection-end="210" vertical-scroll-proportion="0.3465704">
               <folding />
             </state>
           </provider>
@@ -1252,7 +1252,11 @@
       <created>1346179545732</created>
       <updated>1346179545732</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="revert test route again">
+      <created>1346179677937</created>
+      <updated>1346179677937</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1337,7 +1341,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Another routing test" />
+    <option name="LAST_COMMIT_MESSAGE" value="revert test route again" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1365,6 +1369,7 @@
     <MESSAGE value="Test routing for subdomain" />
     <MESSAGE value="revert routing test" />
     <MESSAGE value="Another routing test" />
+    <MESSAGE value="revert test route again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1477,7 +1482,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0866426">
+        <state line="18" column="12" selection-start="210" selection-end="210" vertical-scroll-proportion="0.3465704">
           <folding />
         </state>
       </provider>
