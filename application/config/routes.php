@@ -1,5 +1,5 @@
 <?php
-\Subdomain_Request::$subdomain = 'promo';
+//\Subdomain_Request::$subdomain = 'promo';
 Route::set
 (
 	'default',

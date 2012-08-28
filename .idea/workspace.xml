@@ -38,7 +38,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="41" selection-start="47" selection-end="47" vertical-scroll-proportion="-0.18411553">
+            <state line="3" column="1" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0866426">
               <folding />
             </state>
           </provider>
@@ -1248,7 +1248,11 @@
       <created>1346178853399</created>
       <updated>1346178853399</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Another routing test">
+      <created>1346179545732</created>
+      <updated>1346179545732</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1333,7 +1337,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="revert routing test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another routing test" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1360,6 +1364,7 @@
     <MESSAGE value="Push to add secondary subdomain promo while maintaining servicenow subdomain handling" />
     <MESSAGE value="Test routing for subdomain" />
     <MESSAGE value="revert routing test" />
+    <MESSAGE value="Another routing test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1472,7 +1477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="41" selection-start="47" selection-end="47" vertical-scroll-proportion="-0.18411553">
+        <state line="3" column="1" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0866426">
           <folding />
         </state>
       </provider>
