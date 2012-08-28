@@ -1,0 +1,84 @@
+@promo_img_path: '/assets/img/promo/';
+
+body {
+	background-color: #e2e2e2;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+	margin: 0 0 10px 0;
+	.emphasis,
+	&.emphasis {
+		color: @matrix42_orange;
+	}
+	.secondary,
+	&.secondary {
+		color: @breadcrumb_color;
+	}
+	&.inverse {
+		color: #ffffff;
+	}
+}
+
+h1 {
+	&.price {
+		color: #666666;
+		font-size: 80px;
+		line-height: 50px;
+		.monetary {
+			font-size: 20px;
+			line-height: 20px;
+			vertical-align: top;
+		}
+		.squeeze {
+			letter-spacing: -15px;
+		}
+	}
+}
+
+.per-device {
+	.right;
+	margin-top: -10px;
+	font-size: 8px;
+	line-height: 2px;
+}
+
+.navbar-inner {
+	background-color: #151D25;
+}
+
+.jumbotron {
+	margin-top: 100px;
+	background: #ffffff url(@{promo_img_path}jumbo-background.jpg) top center no-repeat;
+	height: 580px;
+	.tag-content {
+		.shadowbox();
+		h2 {
+			line-height: 15px;
+		}
+	}
+	.package {
+		h4, h6 {
+			line-height: 10px;
+		}
+		p {
+			font-size: 12px;
+		}
+	}
+}
+
+.jumbo-title {
+	font-size: 60px;
+	line-height: 46px;
+}
+
+.well {
+	&.plastic {
+		.shadowbox();
+		background: #ffffff url(@{img_path}plastic-well.png) repeat-x top left;
+	}
+	&.dark {
+		background-color: @navbarBackgroundHighlight;
+		color: #ffffff;
+		border-color: #333333;
+	}
+}

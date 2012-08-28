@@ -7,17 +7,17 @@ require MODPATH.'/assets/vendor/lessphp/lessc.inc.php';
 class Assets_Core {
 
 	protected $_config;
-	
+
 	protected $_css_path;
-	
+
 	protected $_js_path;
-	
+
 	protected $_name;
-	
+
 	protected $_styles = array();
-	
+
 	protected $_scripts = array();
-	
+
 	protected function _normalize_path($path, $prefix = null)
 	{
 		if(is_null($prefix))
@@ -32,13 +32,13 @@ class Assets_Core {
 			{
 				$path .= DIRECTORY_SEPARATOR;
 			}
-			
+
 			$path = $prefix.$path;
 		}
 
 		return $path;
 	}
-	
+
 	protected function _is_external($path)
 	{
 		return stripos($path, 'http') === 0;
@@ -76,7 +76,7 @@ class Assets_Core {
 
 		return $css;
 	}
-	
+
 	/**
 	 * Basic factory method, simply for chaining
 	 */
@@ -95,12 +95,12 @@ class Assets_Core {
 		);
 
 		$local = Kohana::$config->load('assets.'.$name);
-		
+
 		if(Arr::is_array($local))
 		{
 			$this->_config = array_merge($this->_config,$local);
 		}
-		
+
 		$this->_config['css']['public_path'] = $this->_config['css']['compile_path'];
 		$this->_config['css']['compile_path'] = $this->_normalize_path($this->_config['css']['compile_path']);
 		$this->_config['css']['template_path'] = $this->_normalize_path($this->_config['css']['template_path']);
@@ -120,23 +120,23 @@ class Assets_Core {
 	{
 		$this->_styles[] = $path;
 	}
-	
+
 	public function script($path)
 	{
 		$this->_scripts[] = $path;
 	}
-	
+
 	public function styles($paths = null)
 	{
 		$config = $this->_config['css'];
-		
+
 		if(!is_null($paths))
 		{
 			$this->_styles = array_merge($this->_styles, $paths);
-			
+
 			return $this;
 		}
-		
+
 		// Setup external links
 		$links = '';
 		foreach($this->_styles as $path)
@@ -146,13 +146,13 @@ class Assets_Core {
 				$links .= HTML::style($path)."\n";
 			}
 		}
-		
+
 		$files = glob($config['compile_path'].$this->_name.'_*.css');
-		
+
 		// At some point allow locking
-				
+
 		$ext = $config['extension'];
-				
+
 		$hash = '';
 
 		foreach($this->_styles as $path)
@@ -168,16 +168,16 @@ class Assets_Core {
 		}
 
 		// Determine current hash
-		
+
 		$hash = sha1($hash);
-		// Look for file with matching hash, if the files don't match delete. 
+		// Look for file with matching hash, if the files don't match delete.
 		foreach($files as $file)
 		{
 			if(stristr($file, $hash))
 			{
 				$file = explode(DIRECTORY_SEPARATOR, $file);
 				$file = end($file);
-				
+
 				$links .= HTML::style($config['public_path'].$file)."\n";
 				$return = true;
 			}
@@ -186,17 +186,17 @@ class Assets_Core {
 				unlink($file);
 			}
 		}
-		
-		
+
+
 		if(isset($return))
 		{
 			return $links;
 		}
-		
+
 		// If it doesn't exist create a new file with compiled hash.
-		
+
 		$less = '';
-		
+
 		foreach($this->_styles as $path)
 		{
 			if(!$this->_is_external($path))
@@ -205,9 +205,9 @@ class Assets_Core {
 				$less .= file_get_contents($config['template_path'].$path);
 			}
 		}
-		
+
 		$name = $this->_name.'_'.$hash.'.css';
-		
+
 		// Instantiate LESS compiler
 		$compiler = new lessc();
 
@@ -225,34 +225,34 @@ class Assets_Core {
 		{
 			$css = $this->_minify($css);
 		}
-		
+
 		file_put_contents($config['compile_path'].$name, $css);
-		
+
 		// Return link to compiled stylesheet
 		$links .= HTML::style($config['public_path'].$name);
-		
+
 		return $links;
 	}
-	
-	
+
+
 	public function scripts($paths = null)
 	{
 		if(!is_null($paths))
 		{
 			$this->_scripts = array_merge($this->_scripts, $paths);
-			
+
 			return $this;
 		}
-		
+
 		$config = $this->_config['js'];
-			
+
 		$links = '';
 		foreach($this->_scripts as $path)
 		{
 			$links .= HTML::script($config['public_path'].$path.'.js')."\n";
 		}
-		
+
 		return $links;
 	}
-	
+
 } // End Assets

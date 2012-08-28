@@ -149,4 +149,60 @@ class Lead extends User
 
 		return $form;
 	}
+
+	public function get_promo_lead_form()
+	{
+		$add_ons = \Kacela::find_active('product', \Kacela::criteria()->equals('type', 'add-on'));
+
+		$add_on_array = array();
+		foreach($add_ons as $add_on)
+		{
+			$add_on_array[$add_on->id] = $add_on->name;
+		}
+
+		$form = \Formo::form('lead')
+			->add('campaign_id', 'hidden')
+			->add('name', array('label' => __('Full Name')))
+			->add('email', array('type' => 'email', 'label' => 'Email'))
+			->add('number', array('label' => __('Phone Number')))
+			->add('promotion_id', 'hidden')
+			->add('addons', array('driver' => 'checkboxes', 'label' => 'Add-On(s)', 'options' => $add_on_array))
+			->rules('name', array(
+			array('not_empty'),
+			array('\Valid::full_name'),
+		))
+			->rules('email', array(
+			array('not_empty'),
+			array('email'),
+		))
+			->rules('number', array(
+			array('not_empty'),
+			array('phone', array(':value', array(10))),
+		))
+			->callbacks(array(
+			'fail' => array
+			(
+				'email' => array
+				(
+					array(function($field){
+						$error = $field->error();
+						if (strpos($error, 'already'))
+						{
+							$field->parent()->set('fail_unique_email', true);
+						}
+					}, array(':field')),
+				)
+			),
+			'pass' => array
+			(
+				':self' => array
+				(
+					array(array($this, 'create_new_promo_lead'), array(':field')),
+				),
+			),
+		));
+		//exit(\Debug::vars($form->addons));
+
+		return $form;
+	}
 }
