@@ -10,11 +10,11 @@ class Controller_Promo extends Controller_Public {
 
 	public function before()
 	{
+		$this->_modal = true;
+
 		$this->_title = "Matrix42 Latest Promotions";
 
 		$this->_lead_form = $this->lead_form(true);
-
-		$this->_banner = View::factory('promo/banner');
 
 		$this->request->styles
 		(
@@ -28,22 +28,22 @@ class Controller_Promo extends Controller_Public {
 		parent::before();
 	}
 
-	public function lead_form($full = false)
+	public function order_form($full = false)
 	{
 		$complete = false;
 		$user = new \Darth\Model\Lead;
-		$lead_form = $user->get_promo_lead_form()
+		$order_form = $user->get_promo_lead_form()
 			->add('submit', 'submit', array('text' => __('Inquire!')));
 
-		$lead_form->campaign_id->set('value', $this->_campaign);
+		$order_form->campaign_id->set('value', $this->_campaign);
 
-		if ($lead_form->load()->validate())
+		if ($order_form->load()->validate())
 		{
 			$complete = true;
 		}
 
-		return \View::factory('promo/lead_form', array('language' => true))
-			->bind('form', $lead_form)
+		return \View::factory('promo/order_form', array('language' => true))
+			->bind('form', $order_form)
 			->set('complete', $complete);
 	}
 }

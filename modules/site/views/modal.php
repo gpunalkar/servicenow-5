@@ -6,7 +6,7 @@
 	<div class="modal-body" id="modal-body"><?=$content?></div>
 	<div class="modal-footer">
 	<?php if($type == 'form'): ?>
-		<a href="#" class="btn btn-primary submit-button">save</a>
+		<a href="#" class="btn btn-primary submit-button"><?=__($button_name)?></a>
 	<?php endif; ?>
 	</div>
 </div><!-- modal -->

@@ -29,45 +29,22 @@ defined('SYSPATH') OR die('No direct access allowed.');
 	<?=$head_analytics->render()?>
 </head>
 <body>
-<?=$header?>
-<header id="home-header" class="jumbotron">
-	<?=$banner?>
-</header>
-
-
-<div id="main-container" class="container rel">
-	<div id="main-row" class="row">
-		<?=$nav?>
-		<?php if($sidebar): ?>
-		<?php if($sidebar_loc == "left"): ?>
-			<div id="sidebar" class="span3">
-				<?=$sidebar?>
-			</div>
-			<div id="body-content" class="span9">
-				<?=$content?>
-			</div>
-			<?php else: ?>
-			<div id="body-content" class="span9">
-				<?=$content?>
-			</div>
-			<div id="sidebar" class="span3">
-				<?=$sidebar?>
-			</div>
-			<?php endif; ?>
-		<?php else: ?>
-		<?=$content?>
-		<?php endif; ?>
-		<div class="span12">
-			<?=$lead_form?>
-		</div><!-- span12 -->
-	</div><!-- main-row -->
-</div><!-- main-container -->
-<div id="footer" class="container">
-	<?=$footer?>
-</div><!-- footer -->
-<?php if($modal): ?>
-	<?=$modal?>
+<div class="wrapper">
+	<?=$header?>
+	<?=$content?>
+	<div id="main-lead-form" class="container rel hidden">
+		<?=$lead_form?>
+	</div><!-- container -->
+	<?php if($modal): ?>
+		<?=$modal?>
 	<?php endif; ?>
+</div><!-- wrapper -->
+<div class="push"></div>
+<div id="footer">
+	<div class="container">
+		<?=$footer?>
+	</div>
+</div><!-- footer -->
 <?=$foot_analytics->render()?>
 </body>
 </html>

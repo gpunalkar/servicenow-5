@@ -40,6 +40,7 @@ class Controller_Site extends Controller_Template
 	protected $_modal_title = null;
 	protected $_modal_content = null;
 	protected $_modal_view;
+	protected $_modal_button_name = 'Place Order';
 
 	protected $_lead_form;
 	protected $_lead_form_render = true;
@@ -123,7 +124,8 @@ class Controller_Site extends Controller_Template
 			$this->_modal_view = \View::factory('modal')
 				->set('title', $this->_modal_title)
 				->set('content', $this->_modal_content)
-				->set('type', $this->_modal_type);
+				->set('type', $this->_modal_type)
+				->set('button_name', $this->_modal_button_name);
 		}
 
 		$this->template->header = \View::factory($this->_theme_path.$this->_theme_name.'/header');

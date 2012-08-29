@@ -1,7 +1,18 @@
 @promo_img_path: '/assets/img/promo/';
 
+html, body {
+	height: 100%;
+}
+
 body {
 	background-color: #e2e2e2;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -28,11 +39,21 @@ h1 {
 			font-size: 20px;
 			line-height: 20px;
 			vertical-align: top;
+			letter-spacing: 0 !important;
 		}
-		.squeeze {
+		&.squeeze {
+			margin-left: -20px;
 			letter-spacing: -15px;
 		}
 	}
+}
+
+.rel {
+	position: relative;
+}
+
+.padded {
+	margin-left: 20px;
 }
 
 .per-device {
@@ -49,16 +70,21 @@ h1 {
 .jumbotron {
 	margin-top: 100px;
 	background: #ffffff url(@{promo_img_path}jumbo-background.jpg) top center no-repeat;
-	height: 580px;
+	height: 705px;
 	.tag-content {
-		.shadowbox();
+		h1 {
+			font-size: 40px;
+		}
 		h2 {
 			line-height: 15px;
 		}
 	}
 	.package {
-		h4, h6 {
-			line-height: 10px;
+		h3 {
+			font-size: 22px;
+		}
+		h3, h4, h6 {
+			line-height: 12px;
 		}
 		p {
 			font-size: 12px;
@@ -77,8 +103,66 @@ h1 {
 		background: #ffffff url(@{img_path}plastic-well.png) repeat-x top left;
 	}
 	&.dark {
-		background-color: @navbarBackgroundHighlight;
+		.shadowbox();
+		background: @navbarBackgroundHighlight url(@{promo_img_path}blurlights.jpg) no-repeat center center;
 		color: #ffffff;
 		border-color: #333333;
+	}
+}
+
+.product {
+	.thumbnail {
+		margin-right: 10px;
+	}
+	h3 {
+		line-height: 10px;
+		vertical-align: top;
+	}
+	p {
+		font-size: 11px;
+	}
+	.btn {
+		margin-left: 10px;
+	}
+}
+
+.btn-icon.btn-mini {
+	line-height: 24px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#lead-form {
+	.full-border-right;
+	.border-top;
+	.border-bottom;
+	background-color: #f7f7f7;
+	.contact-well {
+		margin: 0;
+		.full-border-right;
+		background-color: @titlebar_bg_color;
+		min-height: 250px;
+		font-size: 12px;
+		h4 {
+			font-size: 16px;
+			padding: 0;
+			margin: 0;
+		}
+	}
+	.contact-form {
+		margin: 0;
+		padding: 0 20px 20px 0;
+	}
+	textarea {
+		height: 94px;
+	}
+}
+
+#footer {
+	height: 60px;
+	background: @titlebar_bg_color url(@{promo_img_path}footer-background.png) repeat-x 0 0;
+	#copyright {
+		margin-top: 20px;
+		color: #999999;
 	}
 }

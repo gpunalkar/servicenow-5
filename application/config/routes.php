@@ -1,5 +1,15 @@
 <?php
-//\Subdomain_Request::$subdomain = 'promo';
+switch($_SERVER['SERVER_NAME'])
+{
+	case 'servicenow.matrix42.com':
+	case 'servicenow.matrix42.de':
+		$directory = 'servicenow';
+		break;
+	case 'promo.matrix42.com':
+	case 'promo.matrix42.de':
+		$directory = 'promo';
+		break;
+}
 Route::set
 (
 	'default',
@@ -9,30 +19,8 @@ Route::set
 (
 	array
 	(
-		'directory' => 'servicenow',
-		'controller' => 'index',
-	)
-);
-/*
-Route::set
-(
-	'promo',
-	'(<action>(/<id>))'
-)
-->subdomains
-(
-	array
-	(
-		'promo',
-	)
-)
-->defaults
-(
-	array
-	(
-		'directory' => 'promo',
+		'directory' => $directory,
 		'controller' => 'index',
 		'action' => 'index',
 	)
 );
-*/
