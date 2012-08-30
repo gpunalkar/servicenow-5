@@ -34,7 +34,7 @@ h1 {
 	&.price {
 		color: #666666;
 		font-size: 80px;
-		line-height: 50px;
+		line-height: 60px;
 		.monetary {
 			font-size: 20px;
 			line-height: 20px;
@@ -65,6 +65,24 @@ h1 {
 
 .navbar-inner {
 	background-color: #151D25;
+}
+
+#exclusive-label {
+	.abs;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 101px;
+	background: transparent url(@{promo_img_path}exclusive-fold.png) no-repeat top right;
+	color: @navbarBackgroundHighlight;
+	h3 {
+		margin: 3px 0 3px 20px;
+		line-height: 16px;
+	}
+	h4 {
+		margin: 0 0 0 40px;
+		line-height: 16px;
+	}
 }
 
 .jumbotron {
@@ -107,7 +125,23 @@ h1 {
 		background: @navbarBackgroundHighlight url(@{promo_img_path}blurlights.jpg) no-repeat center center;
 		color: #ffffff;
 		border-color: #333333;
+		.label {
+			color: #ffffff;
+		}
 	}
+	&.order-well {
+		height: 290px;
+	}
+}
+
+.estimate {
+	border: none;
+	background: none;
+}
+
+.disclaimer {
+	font-weight: normal;
+	font-size: 8px;
 }
 
 .product {
@@ -155,6 +189,12 @@ h1 {
 	}
 	textarea {
 		height: 94px;
+	}
+}
+
+#boldchat {
+	span {
+		display: none;
 	}
 }
 

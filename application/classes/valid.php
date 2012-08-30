@@ -33,4 +33,14 @@ class Valid extends Kohana_Valid {
 		return $pass;
 	}
 
+	public static function select_count($vals, $required_num)
+	{
+		if(count($vals) == $required_num)
+		{
+			return true;
+		}
+
+		return false;
+	}
+
 }

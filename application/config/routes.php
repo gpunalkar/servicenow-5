@@ -9,6 +9,8 @@ switch($_SERVER['SERVER_NAME'])
 	case 'promo.matrix42.de':
 		$directory = 'promo';
 		break;
+	default:
+		$directory = 'promo';
 }
 Route::set
 (

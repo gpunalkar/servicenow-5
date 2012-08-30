@@ -1,26 +1,33 @@
 <?php $form->html(); ?>
-<?php $form->view()->attr('action', \Request::$current->url().'#lead-form-anchor'); ?>
-<div class="row-fluid"><div id="lead-form-anchor" class="span6"></div></div>
-<div class="promo-form">
+<div class="container">
 	<div class="row-fluid">
-		<?php if($complete): ?>
-		<div class="span6">
-			<h2 class="padded-content">Your inquiry has been submitted</h2>
-			<p class="padded-content">You will be contacted shortly in regards to this promotion.</p>
-		</div>
-		<?php else: ?>
-		<?=$form->view()->open()?>
-		<?=$form->campaign_id->render()?>
-		<div class="span6">
+	<?=$form->view()->open()?>
+		<div class="well order-well span4">
+			<span id="promotion-price" class="hidden"><?=$promotion->promo_price?></span>
+			<span id="regular-price" class="hidden"><?=$promotion->reg_price?></span>
+			<span id="promotion-id" class="hidden"><?=$promotion->id?></span>
 			<?=$form->name->render()?>
+			<?=$form->company->render()?>
 			<?=$form->email->render()?>
 			<?=$form->number->render()?>
-		</div>
-		<div class="span5">
+		</div><!-- span4 -->
+		<div class="well order-well dark span4">
 			<?=$form->addons->render()?>
-			<?=$form->submit->render()?>
-		</div>
-		<?=$form->view()->close()?>
-		<?php endif; ?>
-	</div><!-- row -->
-</div><!-- contact-form -->
+			<?=$form->promotion_id->render()?>
+			<?=$form->campaign_id->render()?>
+		</div><!-- span4 -->
+		<div class="well order-well span4">
+			<?=$form->partner->render()?>
+			<?=$form->devices->render()?>
+			<h6 class="disclaimer"><?=__('Required to calculate estimate')?></h6>
+			<?=$form->estimate->render()?>
+			<h6 class="disclaimer">*<?=__('This is only an estimated price. Be sure to consult your sales representative for a more accurate pricing guide as other fees and taxes may apply.')?></h6>
+		</div><!-- span4 -->
+	<?=$form->view()->close()?>
+	</div><!-- row-fluid -->
+</div><!-- container-fluid -->
+<?php if(isset($scripts)): ?>
+<?php foreach($scripts as $script): ?>
+	<script type="text/javascript" src="/assets/js/<?=$script?>.js"></script>
+<?php endforeach; ?>
+<?php endif; ?>

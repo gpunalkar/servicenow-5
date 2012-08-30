@@ -1,4 +1,8 @@
 $(document).ready(function() {
+	if(window.location.href.indexOf("#lead-form-anchor") > -1) {
+		$('#main-lead-form').show();
+	}
+
 	$(".scroll").click(function(event){
 		event.preventDefault();
 		if($('#main-lead-form').hasClass('hidden')) {
@@ -36,26 +40,10 @@ $(document).ready(function() {
 				if(obj.success == true)
 				{
 					$('#modal').modal('hide');
-					location.reload();
+					window.location.href = '/thank_you';
 				}
 			}
 		});
 		return false;
 	});
 });
-
-	$(document).scroll(function(){
-		// If has not activated (has no attribute "data-top"
-		if (!$('.subnav').attr('data-top')) {
-			// If already fixed, then do nothing
-			if ($('.subnav').hasClass('subnav-fixed')) return;
-			// Remember top position
-			var offset = $('.subnav').offset();
-			$('.subnav').attr('data-top', offset.top);
-		}
-
-		if ($('.subnav').attr('data-top') - $('.subnav').outerHeight() <= $(this).scrollTop())
-			$('.subnav').addClass('subnav-fixed');
-		else
-			$('.subnav').removeClass('subnav-fixed');
-	});

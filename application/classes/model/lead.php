@@ -69,6 +69,41 @@ class Lead extends User
 		*/
 	}
 
+	public function create_new_order($form)
+	{
+		//if this is an existing email then just update that leads info else create a new lead
+		if(!\Valid::unique_email($form->email->val()))
+		{
+			$lead = \Kacela::find('user', $form->email->val());
+		}
+		else
+		{
+			$lead = $this;
+			// Generate the temp password
+			$temp_password = \Text::random();
+			$hash_password = \Bonafide::instance()->hash($temp_password);
+			$lead->password = $hash_password;
+			$lead->inquiry_ip = \Request::$client_ip;
+		}
+
+		// Set the user variables
+		$lead->full_name = $form->name->val();
+		$lead->email = $form->email->val();
+		$lead->campaign_id = $form->campaign_id->val();
+		$lead->role = 'lead';
+		$lead->inquiry_date = time();
+		$lead->last_activity_date = time();
+		$lead->last_ip = \Request::$client_ip;
+
+		// Insert the user and client records
+		$lead->save();
+
+		//insert or update primary phone
+		$personal_phone = $lead->get_phone('primary');
+		$personal_phone->number = \Format::clean_number($form->number->val());
+		$personal_phone->save();
+	}
+
 	public function get_form($name = null)
 	{
 		$form = parent::get_form($name);
@@ -150,7 +185,7 @@ class Lead extends User
 		return $form;
 	}
 
-	public function get_promo_lead_form()
+	public function get_order_form($promotion_id)
 	{
 		$add_ons = \Kacela::find_active('product', \Kacela::criteria()->equals('type', 'add-on'));
 
@@ -161,24 +196,37 @@ class Lead extends User
 		}
 
 		$form = \Formo::form('lead')
+			->add('promotion_id', 'hidden')
 			->add('campaign_id', 'hidden')
 			->add('name', array('label' => __('Full Name')))
+			->add('company', array('label' => __('Business Name')))
 			->add('email', array('type' => 'email', 'label' => 'Email'))
 			->add('number', array('label' => __('Phone Number')))
 			->add('promotion_id', 'hidden')
-			->add('addons', array('driver' => 'checkboxes', 'label' => 'Add-On(s)', 'options' => $add_on_array))
+			->add('addons', array('driver' => 'checkboxes', 'label' => __('Products: Please choose').' '.$promotion_id.' '.__('Total Add-on(s)'), 'options' => $add_on_array))
+			->add('partner', array('label' => __('Referring Partner')))
+			->add('devices', array('label' => __('Approximately How many Devices?')))
+			->add('estimate', array('label' => __('Estimated Cost').'*', 'attr' => array('class' => 'estimate', 'disabled' => 'disabled')))
 			->rules('name', array(
-			array('not_empty'),
-			array('\Valid::full_name'),
-		))
+				array('not_empty'),
+				array('\Valid::full_name'),
+			))
 			->rules('email', array(
-			array('not_empty'),
-			array('email'),
-		))
+				array('not_empty'),
+				array('email'),
+			))
 			->rules('number', array(
-			array('not_empty'),
-			array('phone', array(':value', array(10))),
-		))
+				array('not_empty'),
+				array('phone', array(':value', array(10))),
+			))
+			->rules('addons', array(
+				array('not_empty'),
+				array('\Valid::select_count', array(':value', $promotion_id))
+			))
+			->rules('devices', array(
+				array('not_empty'),
+				array('integer'),
+			))
 			->callbacks(array(
 			'fail' => array
 			(
@@ -197,11 +245,12 @@ class Lead extends User
 			(
 				':self' => array
 				(
-					array(array($this, 'create_new_promo_lead'), array(':field')),
+					array(array($this, 'create_new_order'), array(':field')),
 				),
 			),
 		));
-		//exit(\Debug::vars($form->addons));
+
+		$form->promotion_id->set('value', $promotion_id);
 
 		return $form;
 	}

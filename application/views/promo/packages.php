@@ -4,7 +4,7 @@
 		<h3><?=$promo->name?></h3>
 		<h6 class="secondary"><?=__('Package')?></h6>
 		<h1 class="price<?=strlen($promo->promo_price) > 1 ? ' squeeze' : ''?>"><span class="monetary"><?=__('$')?></span><?=$promo->promo_price?></h1>
-		<span class="per-device"> /device</span>
+		<span class="per-device"> /<?=__('device')?></span>
 		<div class="clear"></div>
 		<div class="align-left">
 			<p><?=$promo->description?></p>

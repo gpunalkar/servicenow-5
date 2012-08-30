@@ -24,4 +24,8 @@ return array(
 	'range'         => ':field must be within the range of :param2 to :param3',
 	'regex'         => ':field does not match the required format',
 	'url'           => ':field must be a url',
+	'\Valid::full_name' => __(':field must contain a first and last name'),
+	'\Valid::unique_email' => __('This email already is in our system'),
+	'\Valid::phone' => __('Must be a valid phone number'),
+	'\Valid::select_count' => __('You must select the appropriate number of add-ons'),
 );

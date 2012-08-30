@@ -19,5 +19,7 @@ class Controller_Servicenow extends Controller_Public {
 		$this->request->styles(array('servicenow'));
 
 		parent::before();
+
+		$this->request->scripts(array('servicenow'));
 	}
 }
