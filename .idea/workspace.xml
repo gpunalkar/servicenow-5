@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61617ff2-d36d-4acf-ae4c-bceb37abe954" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/promo/exclusive-fold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/promo/matrix42-logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/assets/vendor/lessphp" afterPath="$PROJECT_DIR$/modules/assets/vendor/lessphp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/de/promo/instructions.php" afterPath="$PROJECT_DIR$/application/views/de/promo/instructions.php" />
     </list>
     <ignored path="servicenow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="de.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="de.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/i18n/de.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="39" selection-start="4259" selection-end="4259" vertical-scroll-proportion="0.40970874">
+            <state line="91" column="39" selection-start="4259" selection-end="4259" vertical-scroll-proportion="-4.1372547">
               <folding />
             </state>
           </provider>
@@ -63,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instructions.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="instructions.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/de/promo/instructions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="29" selection-start="720" selection-end="720" vertical-scroll-proportion="-3.84">
+            <state line="7" column="19" selection-start="726" selection-end="726" vertical-scroll-proportion="0.20702402">
               <folding />
             </state>
           </provider>
@@ -142,10 +141,10 @@
         <option value="$PROJECT_DIR$/application/classes/model/lead.php" />
         <option value="$PROJECT_DIR$/application/views/promo/order_form.php" />
         <option value="$PROJECT_DIR$/modules/site/views/themes/promo/header.php" />
-        <option value="$PROJECT_DIR$/application/views/de/promo/instructions.php" />
         <option value="$PROJECT_DIR$/application/views/de/promo/index.php" />
         <option value="$PROJECT_DIR$/application/views/promo/packages.php" />
         <option value="$PROJECT_DIR$/application/i18n/de.php" />
+        <option value="$PROJECT_DIR$/application/views/de/promo/instructions.php" />
       </list>
     </option>
   </component>
@@ -1137,7 +1136,11 @@
       <created>1346367320164</created>
       <updated>1346367320164</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add new images for nav banner">
+      <created>1346367613474</created>
+      <updated>1346367613474</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1222,7 +1225,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="order process coming along. Also got most of the German translation in place." />
+    <option name="LAST_COMMIT_MESSAGE" value="add new images for nav banner" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1254,6 +1257,7 @@
     <MESSAGE value="additional routing test" />
     <MESSAGE value="rearranged the promo site to include db data. Also setup lead form. New design layout. got rid of the subdomain route complexity." />
     <MESSAGE value="order process coming along. Also got most of the German translation in place." />
+    <MESSAGE value="add new images for nav banner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1343,13 +1347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/de/promo/instructions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="720" selection-end="720" vertical-scroll-proportion="-3.84">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/model/lead.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="211" column="43" selection-start="5636" selection-end="5636" vertical-scroll-proportion="-3.4509804">
@@ -1366,7 +1363,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/i18n/de.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="39" selection-start="4259" selection-end="4259" vertical-scroll-proportion="0.40970874">
+        <state line="91" column="39" selection-start="4259" selection-end="4259" vertical-scroll-proportion="-4.1372547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/de/promo/instructions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="726" selection-end="726" vertical-scroll-proportion="0.20702402">
           <folding />
         </state>
       </provider>
