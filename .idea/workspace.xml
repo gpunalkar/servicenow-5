@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61617ff2-d36d-4acf-ae4c-bceb37abe954" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/hot-well.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/mapper/promotion_lead.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/model/promotion_lead.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/promo/thank_you.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/promo/jumbo-background.jpg" afterPath="$PROJECT_DIR$/assets/img/promo/jumbo-background.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/promo/pm-logo.png" afterPath="$PROJECT_DIR$/assets/img/promo/pm-logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/promo/pr-logo.png" afterPath="$PROJECT_DIR$/assets/img/promo/pr-logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/promo/rc-logo.png" afterPath="$PROJECT_DIR$/assets/img/promo/rc-logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/assets/vendor/lessphp" afterPath="$PROJECT_DIR$/modules/assets/vendor/lessphp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/controller/promo/index.php" afterPath="$PROJECT_DIR$/application/classes/controller/promo/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/model/lead.php" afterPath="$PROJECT_DIR$/application/classes/model/lead.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/environment.php" afterPath="$PROJECT_DIR$/application/config/environment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/i18n/de.php" afterPath="$PROJECT_DIR$/application/i18n/de.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/promo/index.php" afterPath="$PROJECT_DIR$/application/views/promo/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/promo/instructions.php" afterPath="$PROJECT_DIR$/application/views/promo/instructions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/promo/order_form.php" afterPath="$PROJECT_DIR$/application/views/promo/order_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/promo/products.php" afterPath="$PROJECT_DIR$/application/views/promo/products.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/order.js" afterPath="$PROJECT_DIR$/assets/js/order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/promo.less" afterPath="$PROJECT_DIR$/assets/less/promo.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/vars.less" afterPath="$PROJECT_DIR$/assets/less/vars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/site/classes/controller/promo.php" afterPath="$PROJECT_DIR$/modules/site/classes/controller/promo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/site/views/promo.php" afterPath="$PROJECT_DIR$/modules/site/views/promo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/site/views/themes/promo/footer.php" afterPath="$PROJECT_DIR$/modules/site/views/themes/promo/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/site/views/themes/promo/header.php" afterPath="$PROJECT_DIR$/modules/site/views/themes/promo/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/de/promo/index.php" afterPath="$PROJECT_DIR$/application/views/de/promo/index.php" />
     </list>
     <ignored path="servicenow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,10 +26,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/controller/promo/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="10" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.72743684">
+            <state line="30" column="61" selection-start="976" selection-end="976" vertical-scroll-proportion="-9.08">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/promo/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="29" selection-start="0" selection-end="576" vertical-scroll-proportion="-12.16">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/de/promo/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="31" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0866426">
               <folding />
             </state>
           </provider>
@@ -133,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/modules/site/views/promo.php" />
         <option value="$PROJECT_DIR$/modules/site/views/themes/promo/footer.php" />
         <option value="$PROJECT_DIR$/application/views/promo/instructions.php" />
         <option value="$PROJECT_DIR$/assets/less/vars.less" />
@@ -149,6 +144,7 @@
         <option value="$PROJECT_DIR$/application/classes/model/promotion_lead.php" />
         <option value="$PROJECT_DIR$/application/classes/model/lead.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/promo/index.php" />
+        <option value="$PROJECT_DIR$/application/views/de/promo/index.php" />
       </list>
     </option>
   </component>
@@ -1116,7 +1112,11 @@
       <created>1346368064896</created>
       <updated>1346368064896</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="changes to layout and setup of ordering system.">
+      <created>1346452575764</created>
+      <updated>1346452575764</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1143,6 +1143,7 @@
     <frame x="0" y="22" width="1921" height="1024" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1157,7 +1158,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1201,7 +1201,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="German instructions page view" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes to layout and setup of ordering system." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1235,25 +1235,12 @@
     <MESSAGE value="order process coming along. Also got most of the German translation in place." />
     <MESSAGE value="add new images for nav banner" />
     <MESSAGE value="German instructions page view" />
+    <MESSAGE value="changes to layout and setup of ordering system." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/promo/order_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="46" selection-start="791" selection-end="791" vertical-scroll-proportion="-11.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/site.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="56" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/site/views/promo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="16" selection-start="1177" selection-end="1177" vertical-scroll-proportion="-25.6">
@@ -1347,7 +1334,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/controller/promo/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="10" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.72743684">
+        <state line="30" column="61" selection-start="976" selection-end="976" vertical-scroll-proportion="-9.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/promo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="29" selection-start="0" selection-end="576" vertical-scroll-proportion="-12.16">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/de/promo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="31" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0866426">
           <folding />
         </state>
       </provider>
