@@ -1,4 +1,5 @@
 <div class="row-fluid">
+	<h1>Matrix42 Add-Ons</h1>
 <?php foreach($products as $product): ?>
 	<div class="product well dark">
 		<img src="/assets/img/promo/<?=$product->logo?>" class="left thumbnail" alt="<?=$product->name?>" />
