@@ -129,14 +129,26 @@ h1 {
 			color: #ffffff;
 		}
 	}
+	&.hot {
+		.shadowbox();
+		background: #ffd550 url(@{img_path}hot-well.png) repeat-x 0 0;
+		color: @navbarBackgroundHighlight;
+		border-color: @navbarBackgroundHighlight;
+	}
 	&.order-well {
 		height: 290px;
 	}
 }
 
 .estimate {
+	.bold;
 	border: none;
 	background: none;
+	color: #ff0000;
+}
+
+#you-save {
+	font-size: 10px;
 }
 
 .disclaimer {
@@ -170,11 +182,11 @@ h1 {
 	.full-border-right;
 	.border-top;
 	.border-bottom;
-	background-color: #f7f7f7;
+	/*background-color: #f7f7f7;*/
 	.contact-well {
 		margin: 0;
 		.full-border-right;
-		background-color: @titlebar_bg_color;
+		/*background-color: @titlebar_bg_color;*/
 		min-height: 250px;
 		font-size: 12px;
 		h4 {
@@ -199,10 +211,15 @@ h1 {
 }
 
 #footer {
-	height: 60px;
-	background: @titlebar_bg_color url(@{promo_img_path}footer-background.png) repeat-x 0 0;
+	/*background: @titlebar_bg_color url(@{promo_img_path}footer-background.png) repeat-x 0 0;*/
 	#copyright {
 		margin-top: 20px;
+		height: 60px;
+		width: 100%;
+		background: @titlebar_bg_color url(@{promo_img_path}footer-background.png) repeat-x 0 0;
 		color: #999999;
+		#copyright-text {
+			margin-top: 20px;
+		}
 	}
 }

@@ -32,18 +32,13 @@ defined('SYSPATH') OR die('No direct access allowed.');
 <div class="wrapper">
 	<?=$header?>
 	<?=$content?>
-	<div id="main-lead-form" class="container rel hidden">
-		<?=$lead_form?>
-	</div><!-- container -->
 	<?php if($modal): ?>
 		<?=$modal?>
 	<?php endif; ?>
 </div><!-- wrapper -->
 <div class="push"></div>
 <div id="footer">
-	<div class="container">
-		<?=$footer?>
-	</div>
+	<?=$footer?>
 </div><!-- footer -->
 <?=$foot_analytics->render()?>
 </body>

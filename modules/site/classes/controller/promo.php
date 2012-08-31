@@ -16,6 +16,8 @@ class Controller_Promo extends Controller_Public {
 
 		$this->_lead_form = $this->lead_form(true);
 
+		$this->_campaign = 6;
+
 		$this->request->styles(
 			array
 			(

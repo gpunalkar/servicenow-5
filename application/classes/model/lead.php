@@ -89,6 +89,7 @@ class Lead extends User
 		// Set the user variables
 		$lead->full_name = $form->name->val();
 		$lead->email = $form->email->val();
+		$lead->business_name = $form->company->val();
 		$lead->campaign_id = $form->campaign_id->val();
 		$lead->role = 'lead';
 		$lead->inquiry_date = time();
@@ -102,6 +103,17 @@ class Lead extends User
 		$personal_phone = $lead->get_phone('primary');
 		$personal_phone->number = \Format::clean_number($form->number->val());
 		$personal_phone->save();
+
+		//insert promotion order
+		$promotion_order = $lead->promotion;
+		$promotion_order->promotion_id = $form->promotion_id->val();
+		$promotion_order->lead_id = $lead->id;
+		$promotion_order->product_ids = serialize($form->addons->val());
+		$promotion_order->partner = $form->partner->val();
+		$promotion_order->price_estimate = $form->estimate->val();
+		$promotion_order->save();
+
+		/*TODO: build an email to notify both customer and sales*/
 	}
 
 	public function get_form($name = null)
@@ -195,7 +207,7 @@ class Lead extends User
 			$add_on_array[$add_on->id] = $add_on->name;
 		}
 
-		$form = \Formo::form('lead')
+		$form = \Formo::form('order')
 			->add('promotion_id', 'hidden')
 			->add('campaign_id', 'hidden')
 			->add('name', array('label' => __('Full Name')))
@@ -206,7 +218,7 @@ class Lead extends User
 			->add('addons', array('driver' => 'checkboxes', 'label' => __('Products: Please choose').' '.$promotion_id.' '.__('Total Add-on(s)'), 'options' => $add_on_array))
 			->add('partner', array('label' => __('Referring Partner')))
 			->add('devices', array('label' => __('Approximately How many Devices?')))
-			->add('estimate', array('label' => __('Estimated Cost').'*', 'attr' => array('class' => 'estimate', 'disabled' => 'disabled')))
+			->add('estimate', array('label' => __('Your Estimated Cost').'*', 'attr' => array('class' => 'estimate', 'disabled' => 'disabled')))
 			->rules('name', array(
 				array('not_empty'),
 				array('\Valid::full_name'),
@@ -225,7 +237,7 @@ class Lead extends User
 			))
 			->rules('devices', array(
 				array('not_empty'),
-				array('integer'),
+				array('numeric'),
 			))
 			->callbacks(array(
 			'fail' => array
