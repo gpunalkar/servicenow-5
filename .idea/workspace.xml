@@ -4,7 +4,8 @@
     <list default="true" id="61617ff2-d36d-4acf-ae4c-bceb37abe954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/assets/vendor/lessphp" afterPath="$PROJECT_DIR$/modules/assets/vendor/lessphp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/de/promo/index.php" afterPath="$PROJECT_DIR$/application/views/de/promo/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/promo.less" afterPath="$PROJECT_DIR$/assets/less/promo.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/vars.less" afterPath="$PROJECT_DIR$/assets/less/vars.less" />
     </list>
     <ignored path="servicenow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/de/promo/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="378" selection-end="378" vertical-scroll-proportion="0.24441834">
+            <state line="13" column="29" selection-start="378" selection-end="378" vertical-scroll-proportion="-8.32">
               <folding />
             </state>
           </provider>
@@ -89,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promo.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="promo.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/less/promo.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="211" column="26" selection-start="3065" selection-end="3065" vertical-scroll-proportion="-19.153847">
+            <state line="210" column="12" selection-start="3044" selection-end="3044" vertical-scroll-proportion="0.4729412">
               <folding />
             </state>
           </provider>
@@ -101,7 +102,7 @@
       <file leaf-file-name="vars.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/less/vars.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="10" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+            <state line="75" column="27" selection-start="786" selection-end="786" vertical-scroll-proportion="-13.961538">
               <folding />
             </state>
           </provider>
@@ -138,13 +139,13 @@
         <option value="$PROJECT_DIR$/application/views/promo/products.php" />
         <option value="$PROJECT_DIR$/modules/site/classes/controller/promo.php" />
         <option value="$PROJECT_DIR$/application/views/side_lead_form.php" />
-        <option value="$PROJECT_DIR$/assets/less/vars.less" />
-        <option value="$PROJECT_DIR$/assets/less/promo.less" />
         <option value="$PROJECT_DIR$/application/views/sidebar_lead_form.php" />
         <option value="$PROJECT_DIR$/application/views/promo/instructions.php" />
         <option value="$PROJECT_DIR$/modules/site/views/themes/promo/header.php" />
         <option value="$PROJECT_DIR$/application/views/de/sidebar_lead_form.php" />
         <option value="$PROJECT_DIR$/application/views/de/promo/index.php" />
+        <option value="$PROJECT_DIR$/assets/less/vars.less" />
+        <option value="$PROJECT_DIR$/assets/less/promo.less" />
       </list>
     </option>
   </component>
@@ -1129,7 +1130,11 @@
       <created>1346457730834</created>
       <updated>1346457730834</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="index view fix for german version">
+      <created>1346457861908</created>
+      <updated>1346457861908</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1214,7 +1219,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added German sidebar lead form view" />
+    <option name="LAST_COMMIT_MESSAGE" value="index view fix for german version" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1227,7 +1232,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Setup the site" />
     <MESSAGE value="Added missing files to git" />
     <MESSAGE value="Added missing assets files to git" />
     <MESSAGE value="setup english content and german content" />
@@ -1252,6 +1256,7 @@
     <MESSAGE value="forgot the german index" />
     <MESSAGE value="Moved lead form to contact box, added exclusive label to side." />
     <MESSAGE value="Added German sidebar lead form view" />
+    <MESSAGE value="index view fix for german version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1292,13 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/vars.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lead_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="46" selection-start="754" selection-end="768" vertical-scroll-proportion="-12.16">
@@ -1309,13 +1307,6 @@
     <entry file="file://$PROJECT_DIR$/application/views/de/promo/instructions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/promo.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="211" column="26" selection-start="3065" selection-end="3065" vertical-scroll-proportion="-19.153847">
           <folding />
         </state>
       </provider>
@@ -1366,7 +1357,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/de/promo/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="378" selection-end="378" vertical-scroll-proportion="0.24441834">
+        <state line="13" column="29" selection-start="378" selection-end="378" vertical-scroll-proportion="-8.32">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/vars.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="27" selection-start="786" selection-end="786" vertical-scroll-proportion="-13.961538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/promo.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="210" column="12" selection-start="3044" selection-end="3044" vertical-scroll-proportion="0.4729412">
           <folding />
         </state>
       </provider>
