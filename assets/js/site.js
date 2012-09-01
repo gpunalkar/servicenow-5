@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	if(window.location.href.indexOf("#lead-form-anchor") > -1) {
+	if(window.location.href.indexOf("#side-lead-form-anchor") > -1) {
 		$('#main-lead-form').show();
 	}
 

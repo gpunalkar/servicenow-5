@@ -1,6 +1,7 @@
 <?php $form->html(); ?>
 <?php $form->view()->attr('action', \Request::$current->uri().'#side-lead-form-anchor'); ?>
 <div id="side-lead-form" class="row-fluid">
+<div id="side-lead-form-anchor"></div>
 	<?php if($complete): ?>
 	<div class="span12">
 		<h2 class="emphasis"><span class="icon checkmark"></span>Thank you!</h2>
