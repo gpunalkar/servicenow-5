@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61617ff2-d36d-4acf-ae4c-bceb37abe954" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/de/sidebar_lead_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/assets/vendor/lessphp" afterPath="$PROJECT_DIR$/modules/assets/vendor/lessphp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/de/promo/index.php" afterPath="$PROJECT_DIR$/application/views/de/promo/index.php" />
     </list>
     <ignored path="servicenow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,15 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="promo.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/site/classes/controller/promo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="46" selection-start="356" selection-end="356" vertical-scroll-proportion="-10.24">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="lead_form.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/de/lead_form.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,10 +53,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar_lead_form.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sidebar_lead_form.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/de/sidebar_lead_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="78" selection-start="397" selection-end="397" vertical-scroll-proportion="0.13160987">
+            <state line="10" column="30" selection-start="464" selection-end="464" vertical-scroll-proportion="-6.4">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/promo/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="29" selection-start="0" selection-end="375" vertical-scroll-proportion="-8.32">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/de/promo/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="29" selection-start="378" selection-end="378" vertical-scroll-proportion="0.24441834">
               <folding />
             </state>
           </provider>
@@ -98,15 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/site/classes/controller/public.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="20" selection-start="672" selection-end="672" vertical-scroll-proportion="-13.56">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="instructions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/promo/instructions.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,7 +133,6 @@
         <option value="$PROJECT_DIR$/application/classes/model/promotion_lead.php" />
         <option value="$PROJECT_DIR$/application/classes/model/lead.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/promo/index.php" />
-        <option value="$PROJECT_DIR$/application/views/de/promo/index.php" />
         <option value="$PROJECT_DIR$/application/config/environment.php" />
         <option value="$PROJECT_DIR$/application/views/promo/index.php" />
         <option value="$PROJECT_DIR$/application/views/promo/products.php" />
@@ -145,6 +144,7 @@
         <option value="$PROJECT_DIR$/application/views/promo/instructions.php" />
         <option value="$PROJECT_DIR$/modules/site/views/themes/promo/header.php" />
         <option value="$PROJECT_DIR$/application/views/de/sidebar_lead_form.php" />
+        <option value="$PROJECT_DIR$/application/views/de/promo/index.php" />
       </list>
     </option>
   </component>
@@ -1125,7 +1125,11 @@
       <created>1346457521936</created>
       <updated>1346457521936</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added German sidebar lead form view">
+      <created>1346457730834</created>
+      <updated>1346457730834</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1210,7 +1214,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved lead form to contact box, added exclusive label to side." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added German sidebar lead form view" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1247,18 +1251,12 @@
     <MESSAGE value="changes to layout and setup of ordering system." />
     <MESSAGE value="forgot the german index" />
     <MESSAGE value="Moved lead form to contact box, added exclusive label to side." />
+    <MESSAGE value="Added German sidebar lead form view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/promo/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.28">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/site.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="56" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
@@ -1276,13 +1274,6 @@
     <entry file="file://$PROJECT_DIR$/application/classes/controller/promo/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="61" selection-start="976" selection-end="976" vertical-scroll-proportion="-19.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/promo/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="268" selection-end="268" vertical-scroll-proportion="-5.76">
           <folding />
         </state>
       </provider>
@@ -1361,7 +1352,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/de/sidebar_lead_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="78" selection-start="397" selection-end="397" vertical-scroll-proportion="0.13160987">
+        <state line="10" column="30" selection-start="464" selection-end="464" vertical-scroll-proportion="-6.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/promo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="29" selection-start="0" selection-end="375" vertical-scroll-proportion="-8.32">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/de/promo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="29" selection-start="378" selection-end="378" vertical-scroll-proportion="0.24441834">
           <folding />
         </state>
       </provider>
