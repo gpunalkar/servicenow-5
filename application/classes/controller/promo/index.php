@@ -27,19 +27,6 @@ class Controller_Promo_Index extends Controller_Promo {
 
 	public function action_order()
 	{
-		/*
-		$temp_lead = \Kacela::find_one('lead', \Kacela::criteria()->equals('business_name', 'Baggend'));
-		$promotion_order = $temp_lead->promotion_lead;
-
-		//$promotion_order->promotion_id = $form->promotion_id->val();
-		$promotion_order->lead_id = 18;
-		$promotion_order->product_ids = serialize(array(1,2));
-		$promotion_order->partner = 'Bingo Jones';
-		$promotion_order->price_estimate = 500.00;
-		$promotion_order->save();
-
-		exit(\Debug::vars($promotion_order));
-		*/
 		$this->_campaign = 7;
 
 		$promotion_id = $this->request->param('id');
