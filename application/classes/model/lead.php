@@ -105,13 +105,18 @@ class Lead extends User
 		$personal_phone->save();
 
 		//insert promotion order
-		$promotion_order = $lead->promotion;
-		$promotion_order->promotion_id = $form->promotion_id->val();
-		$promotion_order->lead_id = $lead->id;
-		$promotion_order->product_ids = serialize($form->addons->val());
-		$promotion_order->partner = $form->partner->val();
-		$promotion_order->price_estimate = $form->estimate->val();
-		$promotion_order->save();
+		$lead_order = new \Darth\Model\Order;
+		//exit(\Debug::vars($lead_order));
+		$lead_order->promotion_id = $form->promotion_id->val();
+		$lead_order->lead_id = $lead->id;
+		$lead_order->partner = $form->partner->val();
+		$lead_order->devices = $form->devices->val();
+		$lead_order->price_estimate = \Format::clean_number($form->price_estimate->val(), true);
+		$lead_order->save();
+
+		$products = \Kacela::find_active('product', \Kacela::criteria()->in('id', $form->addons->val()));
+
+		$lead_order->add($products, true);
 
 		/*TODO: build an email to notify both customer and sales*/
 	}
@@ -207,6 +212,8 @@ class Lead extends User
 			$add_on_array[$add_on->id] = $add_on->name;
 		}
 
+		$addon_label = $promotion_id == 3 ? __('Products/Add-ons (all three included)') : __('Products: Please choose').' '.$promotion_id.' '.__('Total Add-on(s)');
+
 		$form = \Formo::form('order')
 			->add('promotion_id', 'hidden')
 			->add('campaign_id', 'hidden')
@@ -215,10 +222,11 @@ class Lead extends User
 			->add('email', array('type' => 'email', 'label' => 'Email'))
 			->add('number', array('label' => __('Phone Number')))
 			->add('promotion_id', 'hidden')
-			->add('addons', array('driver' => 'checkboxes', 'label' => __('Products: Please choose').' '.$promotion_id.' '.__('Total Add-on(s)'), 'options' => $add_on_array))
+			->add('addons', array('driver' => 'checkboxes', 'label' => $addon_label, 'options' => $add_on_array))
 			->add('partner', array('label' => __('Referring Partner')))
 			->add('devices', array('label' => __('Approximately How many Devices?')))
 			->add('estimate', array('label' => __('Your Estimated Cost').'*', 'attr' => array('class' => 'estimate', 'disabled' => 'disabled')))
+			->add('price_estimate', array('driver' => 'hidden'))
 			->rules('name', array(
 				array('not_empty'),
 				array('\Valid::full_name'),

@@ -46,7 +46,7 @@ class Controller_Promo_Index extends Controller_Promo {
 
 		$promotion = \Kacela::find_one('promotion', \Kacela::criteria()->equals('id', $promotion_id));
 
-		$user = new \Darth\Model\Lead();
+		$user = new \Darth\Model\Lead;
 		$form = $user->get_order_form($promotion_id);
 
 		$form->campaign_id->set('value', $this->_campaign);
@@ -74,4 +74,5 @@ class Controller_Promo_Index extends Controller_Promo {
 	{
 		$this->_content = \View::factory('promo/thank_you', array('language' => true));
 	}
+
 }

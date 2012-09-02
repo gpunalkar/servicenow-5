@@ -1,4 +1,10 @@
 $(document).ready(function() {
+
+	if($('#promotion-id').text() == 3)
+	{
+		$('form input:checkbox').attr('checked', true);
+	}
+
 	$('form #order-devices').blur(function() {
 		var reg_price = $('#regular-price').text();
 		var promo_price = $('#promotion-price').text();
@@ -10,6 +16,7 @@ $(document).ready(function() {
 		var savings = (original-estimate);
 
 		$('form #order-estimate').val(monetary+estimate.toFixed(2));
+		$('form #order-price_estimate').val(estimate.toFixed(2)).attr('value', estimate.toFixed(2));
 		$('#pre-price').html(monetary+original.toFixed(2)+' package price');
 		$('#discount').html('-('+monetary+savings.toFixed(2)+') [promotional savings]<hr />');
 	});

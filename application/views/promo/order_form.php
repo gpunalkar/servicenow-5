@@ -24,6 +24,7 @@
 			<h6 id="pre-price"></h6>
 			<h6 id="discount"></h6>
 			<?=$form->estimate->render()?>
+			<?=$form->price_estimate->render()?>
 			<h6 class="disclaimer">*<?=__('This is only an estimated price. Be sure to consult your sales representative for a more accurate pricing guide as other fees and taxes may apply.')?></h6>
 		</div><!-- span4 -->
 	<?=$form->view()->close()?>

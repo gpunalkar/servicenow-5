@@ -2,7 +2,7 @@
 
 namespace Darth\Mapper;
 
-class Promotion_lead extends Mapper
+class Order extends Mapper
 {
 
 }
