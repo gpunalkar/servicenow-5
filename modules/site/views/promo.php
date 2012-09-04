@@ -44,5 +44,8 @@ defined('SYSPATH') OR die('No direct access allowed.');
 	<?=$footer?>
 </div><!-- footer -->
 <?=$foot_analytics->render()?>
+<!--[if lte IE 8]>
+<script type="text/javascript" src="/assets/js/plugins/css3-mediaqueries.js"></script>
+<![endif]-->
 </body>
 </html>
