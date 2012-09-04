@@ -11,7 +11,7 @@
 					<tr>
 						<td class="align-top"><h4>Address:&nbsp;</h4></td>
 						<td class="align-top">
-							<span>3400 North Ashton Blvd Ste 110</span></br>
+							<span>3400 North Ashton Blvd Ste 110</span><br />
 							<span>Lehi, Utah 84043</span>
 						</td>
 					</tr>
@@ -32,6 +32,12 @@
 				<div class="span8">
 					<h2 class="padded-content">Your inquiry has been submitted</h2>
 					<p class="padded-content">You will be contacted shortly in regards to your request.</p>
+				<?php if($lead_download): ?>
+					<div class="well padded">
+						<h3 class="emphasis">To begin your download click the following...</h3>
+						<a href="<?=$lead_download?>" class="btn btn-primary btn-large btn-icon"><span class="icon download"></span>Download Now!</a>
+					</div>
+				<?php endif; ?>
 				</div>
 				<?php else: ?>
 				<?=$form->view()->open()?>

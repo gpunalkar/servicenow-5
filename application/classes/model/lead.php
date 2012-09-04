@@ -39,7 +39,7 @@ class Lead extends User
 		$personal_phone->save();
 
 		//insert note
-		$note = $this->get_note();
+		$note = $lead->get_note();
 		$note->user_id = $lead->id;
 		$note->author_id = $lead->id;
 		$note->type = 'inquiry';
@@ -156,9 +156,9 @@ class Lead extends User
 		return $form;
 	}
 
-	public function get_lead_form()
+	public function get_lead_form($name = 'lead')
 	{
-		$form = \Formo::form('lead')
+		$form = \Formo::form($name)
 			->add('campaign_id', 'hidden')
 			->add('name', array('label' => __('Full Name')))
 			->add('email', array('type' => 'email', 'label' => 'Email'))

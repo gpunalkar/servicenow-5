@@ -2,11 +2,32 @@ $(document).ready(function() {
 	$(document).pngFix();
 
 	if(window.location.href.indexOf("#side-lead-form-anchor") > -1) {
+		$('#side-lead-formc').show();
+	}
+
+	if(window.location.href.indexOf("#lead-form-anchor") > -1) {
 		$('#main-lead-form').show();
 	}
 
-	$(".scroll").click(function(event){
+	$(".sidebar-lead").click(function(event){
 		event.preventDefault();
+		var campaign_id = $(this).attr('data-campaign');
+		$('#sidelead-campaign_id').val(campaign_id);
+		//hide the other form on the page
+		$('#main-lead-form').hide();
+		if($('#side-lead-formc').hasClass('hidden')) {
+			$('#side-lead-formc').slideDown().fadeIn();
+		}
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+	});
+
+	$(".main-lead").click(function(event){
+		event.preventDefault();
+
+		$('#lead-campaign_id').val($(this).attr('data-campaign'));
+		$('#lead-message').val($(this).attr('data-message'));
+		//hide the other form on the page
+		$('#side-lead-formc').hide();
 		if($('#main-lead-form').hasClass('hidden')) {
 			$('#main-lead-form').slideDown().fadeIn();
 		}

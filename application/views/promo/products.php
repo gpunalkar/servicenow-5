@@ -11,7 +11,7 @@
 	<?php if($product->pdf): ?>
 		<a href="/assets/uploads/<?=$product->pdf?>" class="btn btn-info btn-mini btn-icon right"><span class="icon pdf"></span><?=__('Data Sheet')?></a>
 	<?php endif; ?>
-		<a href="#" class="btn btn-primary btn-mini btn-icon right"><span class="icon download"></span><?=__('Free Trial')?></a>
+		<a href="#lead-form-anchor" class="btn btn-primary btn-mini btn-icon right scroll main-lead" data-campaign="<?=$product->campaign_id?>" data-message="<?=$product->campaign->description?>"><span class="icon download"></span><?=__('Free Trial')?></a>
 		<div class="clear"></div>
 	</div>
 <?php endforeach; ?>

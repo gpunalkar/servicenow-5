@@ -16,7 +16,7 @@ class Controller_Promo_Index extends Controller_Promo {
 
 		$instructions_view = \View::factory('promo/instructions', array('language' => true))
 			->set('chat', $this->_chat)
-			->set('lead_form', $this->_lead_form);
+			->set('lead_form', $this->side_lead_form());
 
 		$this->_content = \View::factory('promo/index', array('language' => true))
 			->set('products', $product_view)

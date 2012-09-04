@@ -14,7 +14,7 @@ class Controller_Promo extends Controller_Public {
 
 		$this->_title = "Matrix42 Latest Promotions";
 
-		$this->_lead_form = $this->side_lead_form();
+		$this->_lead_form = $this->lead_form(true);
 
 		$this->_campaign = 6;
 
