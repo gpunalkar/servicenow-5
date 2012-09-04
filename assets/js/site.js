@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	$(document).pngFix();
+
 	if(window.location.href.indexOf("#side-lead-form-anchor") > -1) {
 		$('#main-lead-form').show();
 	}
