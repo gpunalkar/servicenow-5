@@ -91,7 +91,7 @@ return array
 	'Order' => 'Bestellung',
 	'Place Order' => 'jetzt bestellen',
 	'Matrix42 Add-Ons Promo' => 'Matrix42 Add-On Wochen',
-	'Extend Your Matrix42 Capabilities' => 'Erweitern Sie Ihre Matrix42 Lösungen',
+	'Extend Your Matrix42 Capabilities' => 'Erhöhen Sie die Leistungsfähigkeit Ihrer Matrix42 Lösung',
 	'Referring Partner' => 'bevorzugter Partner',
 	'Approximately How many Devices?' => 'Wie viele Lizenzen benötigen Sie?',
 	'Your Estimated Cost' => 'Ungefährer Preis',
@@ -103,5 +103,5 @@ return array
 	'Exclusive for' => 'Exklusiv für',
 	'Customers' => 'Kunden',
 	'$' => '€',
-	'device' => 'lizenzen',
+	'device' => 'Lizenz',
 );
