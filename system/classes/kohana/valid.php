@@ -347,7 +347,7 @@ class Kohana_Valid {
 	{
 		if ( ! is_array($lengths))
 		{
-			$lengths = array(7,10,11);
+			$lengths = array(7,8,9,10,11,12,13,14,15,16,17,18,19,20);
 		}
 
 		// Remove all non-digit characters from the number

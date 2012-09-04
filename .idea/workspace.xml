@@ -4,11 +4,7 @@
     <list default="true" id="61617ff2-d36d-4acf-ae4c-bceb37abe954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/assets/vendor/lessphp" afterPath="$PROJECT_DIR$/modules/assets/vendor/lessphp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/controller/promo/index.php" afterPath="$PROJECT_DIR$/application/classes/controller/promo/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/model/lead.php" afterPath="$PROJECT_DIR$/application/classes/model/lead.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lead_form.php" afterPath="$PROJECT_DIR$/application/views/lead_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/order.js" afterPath="$PROJECT_DIR$/assets/js/order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/site.js" afterPath="$PROJECT_DIR$/assets/js/site.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/kohana/valid.php" afterPath="$PROJECT_DIR$/system/classes/kohana/valid.php" />
     </list>
     <ignored path="servicenow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="site.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/site.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="40" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.83905965">
+            <state line="84" column="40" selection-start="2189" selection-end="2189" vertical-scroll-proportion="-26.538462">
               <folding />
             </state>
           </provider>
@@ -65,7 +61,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/controller/promo/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="42" selection-start="1821" selection-end="1821" vertical-scroll-proportion="-35.6">
+            <state line="28" column="5" selection-start="921" selection-end="921" vertical-scroll-proportion="-17.92">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="valid.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/classes/kohana/valid.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="349" column="67" selection-start="8211" selection-end="8211" vertical-scroll-proportion="0.46580407">
               <folding />
             </state>
           </provider>
@@ -120,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/promo/instructions.php" />
         <option value="$PROJECT_DIR$/modules/site/classes/controller/site.php" />
         <option value="$PROJECT_DIR$/application/views/promo/products.php" />
         <option value="$PROJECT_DIR$/modules/site/classes/controller/public.php" />
@@ -134,14 +138,16 @@
         <option value="$PROJECT_DIR$/assets/js/order.js" />
         <option value="$PROJECT_DIR$/application/views/promo/order_form.php" />
         <option value="$PROJECT_DIR$/application/views/lead_form.php" />
-        <option value="$PROJECT_DIR$/application/classes/controller/promo/index.php" />
         <option value="$PROJECT_DIR$/assets/js/site.js" />
+        <option value="$PROJECT_DIR$/application/classes/controller/promo/index.php" />
+        <option value="$PROJECT_DIR$/system/classes/kohana/valid.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="-6" />
+    <option name="y" value="24" />
     <option name="width" value="1680" />
     <option name="height" value="1024" />
   </component>
@@ -1160,7 +1166,11 @@
       <created>1346791811271</created>
       <updated>1346791811271</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="side lead form fix for DE">
+      <created>1346801720097</created>
+      <updated>1346801720097</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1184,24 +1194,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
+    <frame x="-6" y="24" width="1680" height="1024" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27845776" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" x="776" y="514" width="128" height="39" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27845776" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" x="776" y="514" width="128" height="39" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1288,11 +1298,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/less/vars.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="1" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/i18n/de.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="105" column="27" selection-start="5253" selection-end="5253" vertical-scroll-proportion="0.86206895" />
@@ -1365,6 +1370,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="40" selection-start="2189" selection-end="2189" vertical-scroll-proportion="-26.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lead_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="102" selection-start="287" selection-end="287" vertical-scroll-proportion="-2.56">
@@ -1379,14 +1391,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/controller/promo/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="42" selection-start="1821" selection-end="1821" vertical-scroll-proportion="-35.6">
+        <state line="28" column="5" selection-start="921" selection-end="921" vertical-scroll-proportion="-17.92">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/site.js">
+    <entry file="file://$PROJECT_DIR$/system/classes/kohana/valid.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="40" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.83905965">
+        <state line="349" column="67" selection-start="8211" selection-end="8211" vertical-scroll-proportion="0.46580407">
           <folding />
         </state>
       </provider>
