@@ -37,7 +37,7 @@ jQuery.fn.pngFix = function(settings) {
 
 	// Settings
 	settings = jQuery.extend({
-		blankgif: 'blank.gif'
+		blankgif: '/assets/img/blank.gif'
 	}, settings);
 
 	var ie55 = (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion) == 4 && navigator.appVersion.indexOf("MSIE 5.5") != -1);
