@@ -26,6 +26,9 @@ defined('SYSPATH') OR die('No direct access allowed.');
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<?=Request::$current->scripts()?>
 	<?=Request::$current->styles()?>
+	<!--[if lte IE 8]>
+	<link href="/assets/css/stylesie6.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
 	<?=$head_analytics->render()?>
 </head>
 <body>
