@@ -24,12 +24,20 @@ $(document).ready(function() {
 	$(".main-lead").click(function(event){
 		event.preventDefault();
 
+
+		if($('#lead-close').attr('data-reload') == 1)
+		{
+			window.location = '/lead_form/lead-form-anchor';
+		}
 		$('#lead-campaign_id').val($(this).attr('data-campaign'));
 		$('#lead-message').val($(this).attr('data-message'));
 		//hide the other form on the page
 		$('#side-lead-formc').hide();
-		if($('#main-lead-form').hasClass('hidden')) {
+		if($('#main-lead-form').is(":hidden")) {
 			$('#main-lead-form').slideDown().fadeIn();
+			$('#main-lead-form').removeClass('hidden');
+			$('#lead-form').show();
+
 		}
 		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 	});
@@ -68,5 +76,13 @@ $(document).ready(function() {
 			}
 		});
 		return false;
+	});
+
+	$('#lead-close').click(function(){
+		if($(this).attr('data-reload')) {
+			window.location = '/lead_form';
+		} else {
+			$('#main-lead-form').hide();
+		}
 	});
 });

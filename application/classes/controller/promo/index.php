@@ -62,4 +62,10 @@ class Controller_Promo_Index extends Controller_Promo {
 		$this->_content = \View::factory('promo/thank_you', array('language' => true));
 	}
 
+	public function action_lead_form()
+	{
+		$uri = $this->request->param('id') ? '/#'.$this->request->param('id') : '/';
+		\Request::$current->redirect($uri);
+	}
+
 }
