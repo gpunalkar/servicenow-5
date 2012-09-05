@@ -2,6 +2,7 @@
 <?php $form->view()->attr('action', \Request::$current->uri().'#lead-form-anchor'); ?>
 <div class="row">
 	<div id="lead-form" class="<?=$full ? 'span12' : 'span8'?>">
+		<span id="lead-close" data-reload="<?=$complete ? '1' : ''?>" class="icon close right"></span>
 		<div id="lead-form-anchor" class="span4"></div>
 		<div class="span4 contact-well">
 			<div class="padded padded-top">
