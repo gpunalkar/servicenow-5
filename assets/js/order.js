@@ -7,7 +7,6 @@ $(document).ready(function() {
 
 	if($('form #order-devices').val().length > 0)
 	{
-		alert($('form #order-devices').val());
 		update_estimate($('form #order-devices'));
 	}
 

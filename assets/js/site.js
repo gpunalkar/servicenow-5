@@ -79,7 +79,7 @@ $(document).ready(function() {
 	});
 
 	$('#lead-close').click(function(){
-		if($(this).attr('data-reload')) {
+		if($('#lead-close').attr('data-reload') == 1) {
 			window.location = '/lead_form';
 		} else {
 			$('#main-lead-form').hide();

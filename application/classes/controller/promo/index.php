@@ -52,7 +52,7 @@ class Controller_Promo_Index extends Controller_Promo {
 			return;
 		}
 
-		$user->save($form);
+		//$user->save($form);
 
 		exit(json_encode(array('success' => true)));
 	}

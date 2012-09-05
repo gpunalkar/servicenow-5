@@ -71,7 +71,7 @@ class Lead extends User
 
 	public function create_new_order($form)
 	{
-		//exit(\Debug::vars(\Valid::unique_email($form->email->val())));
+		//exit(\Debug::vars($form));
 		//if this is an existing email then just update that leads info else create a new lead
 		if(!\Valid::unique_email($form->email->val()))
 		{
@@ -86,6 +86,7 @@ class Lead extends User
 			$lead->password = $hash_password;
 			$lead->inquiry_ip = \Request::$client_ip;
 		}
+
 
 		// Set the user variables
 		$lead->full_name = $form->name->val();
