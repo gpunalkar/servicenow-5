@@ -1,7 +1,11 @@
 .package {
-	width: 147px;
+	width: 106px !important;
 }
 
 #banner {
 	margin-top: 100px !important;
+}
+
+.wrapper {
+	padding-top: 1px;
 }
