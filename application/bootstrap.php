@@ -80,6 +80,10 @@ if(\Helper::language() == 'de')
 {
 	setlocale(LC_ALL, "de_DE", "de_DE@euro", "deu", "deu_deu", "german");
 }
+elseif(\Helper::language() == 'en')
+{
+	setlocale(LC_ALL, 'en_GB.utf-8');
+}
 else
 {
 	setlocale(LC_ALL, 'en_US.utf-8');

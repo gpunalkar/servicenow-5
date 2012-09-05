@@ -253,7 +253,14 @@ class Format extends Kohana_Text
 				$return = date(self::UNIXTIMESTAMP, $date);
 				break;
 			case 'human':
-				$return = \Helper::language() === 'de' ? date(self::HUMANDE, $date) : date(self::HUMAN, $date);
+				if(\Helper::language() === 'de' OR \Helper::language() === 'en')
+				{
+					$return = date(self::HUMANDE, $date);
+				}
+				else
+				{
+					$return = date(self::HUMAN, $date);
+				}
 				break;
 			case 'short':
 				$return = date(self::SHORT, $date);

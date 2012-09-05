@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61617ff2-d36d-4acf-ae4c-bceb37abe954" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/i18n/en.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/promo/exclusive-fold-de.png" afterPath="$PROJECT_DIR$/assets/img/promo/exclusive-fold-de.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/promo/exclusive-fold.png" afterPath="$PROJECT_DIR$/assets/img/promo/exclusive-fold.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/assets/vendor/lessphp" afterPath="$PROJECT_DIR$/modules/assets/vendor/lessphp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/model/user.php" afterPath="$PROJECT_DIR$/application/classes/model/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bootstrap.php" afterPath="$PROJECT_DIR$/application/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/format.php" afterPath="$PROJECT_DIR$/application/classes/format.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/helper.php" afterPath="$PROJECT_DIR$/application/classes/helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/environment.php" afterPath="$PROJECT_DIR$/application/config/environment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/local.php" afterPath="$PROJECT_DIR$/application/config/local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/promo/instructions.php" afterPath="$PROJECT_DIR$/application/views/promo/instructions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/site/views/themes/promo/header.php" afterPath="$PROJECT_DIR$/modules/site/views/themes/promo/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/site/views/themes/servicenow/header.php" afterPath="$PROJECT_DIR$/modules/site/views/themes/servicenow/header.php" />
     </list>
     <ignored path="servicenow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,33 +36,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lead_form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/lead_form.php">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/site/views/themes/promo/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="193" selection-end="287" vertical-scroll-proportion="-2.56">
-              <folding>
-                <marker date="1346798653000" expanded="true" signature="544:571" placeholder="..." />
-                <marker date="1346798653000" expanded="true" signature="554:571" placeholder="..." />
-                <marker date="1346798653000" expanded="true" signature="767:784" placeholder="..." />
-                <marker date="1346798653000" expanded="true" signature="891:908" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lead_form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/de/lead_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="102" selection-start="287" selection-end="287" vertical-scroll-proportion="-2.56">
+            <state line="7" column="0" selection-start="63" selection-end="267" vertical-scroll-proportion="-1.28">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="valid.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/classes/kohana/valid.php">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/site/views/themes/servicenow/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="345" column="25" selection-start="8083" selection-end="8083" vertical-scroll-proportion="-4.96">
+            <state line="17" column="42" selection-start="265" selection-end="265" vertical-scroll-proportion="-10.88">
+              <folding>
+                <element signature="e#6#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/classes/helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="31" selection-start="1662" selection-end="1662" vertical-scroll-proportion="-6.56">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/environment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="2" selection-start="85" selection-end="85" vertical-scroll-proportion="-3.2">
               <folding />
             </state>
           </provider>
@@ -61,61 +77,52 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/controller/promo/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="10" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-21.76">
+            <state line="54" column="10" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-9.08">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promo.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/site/classes/controller/promo.php">
+      <file leaf-file-name="packages.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/promo/packages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="44" selection-start="106" selection-end="106" vertical-scroll-proportion="-1.28">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/site/classes/controller/public.php">
+      <file leaf-file-name="instructions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/promo/instructions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="68" selection-end="68" vertical-scroll-proportion="2.56">
+            <state line="2" column="104" selection-start="182" selection-end="182" vertical-scroll-proportion="-1.28">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lead.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/classes/model/lead.php">
+      <file leaf-file-name="en.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/i18n/en.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="53" selection-end="53" vertical-scroll-proportion="-2.56">
+            <state line="5" column="2" selection-start="37" selection-end="37" vertical-scroll-proportion="0.14440434">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/classes/model/user.php">
+      <file leaf-file-name="instructions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/de/promo/instructions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="453" column="0" selection-start="8952" selection-end="8952" vertical-scroll-proportion="0.715415">
+            <state line="2" column="25" selection-start="109" selection-end="126" vertical-scroll-proportion="-1.28">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kacela.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/kacela/classes/kohana/kacela.php">
+      <file leaf-file-name="de.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/i18n/de.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="27" selection-start="838" selection-end="838" vertical-scroll-proportion="-11.68">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/order.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="5" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+            <state line="104" column="4" selection-start="5237" selection-end="5248" vertical-scroll-proportion="-16.52">
               <folding />
             </state>
           </provider>
@@ -134,15 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/promo/products.php" />
-        <option value="$PROJECT_DIR$/modules/site/classes/controller/public.php" />
-        <option value="$PROJECT_DIR$/assets/less/vars.less" />
-        <option value="$PROJECT_DIR$/application/views/promo/thank_you.php" />
-        <option value="$PROJECT_DIR$/application/views/de/promo/thank_you.php" />
-        <option value="$PROJECT_DIR$/application/views/de/promo/instructions.php" />
-        <option value="$PROJECT_DIR$/application/views/promo/order_form.php" />
-        <option value="$PROJECT_DIR$/application/views/lead_form.php" />
-        <option value="$PROJECT_DIR$/system/classes/kohana/valid.php" />
         <option value="$PROJECT_DIR$/application/i18n/de.php" />
         <option value="$PROJECT_DIR$/assets/js/site.js" />
         <option value="$PROJECT_DIR$/assets/js/order.js" />
@@ -150,6 +148,15 @@
         <option value="$PROJECT_DIR$/application/views/de/lead_form.php" />
         <option value="$PROJECT_DIR$/application/classes/model/lead.php" />
         <option value="$PROJECT_DIR$/application/classes/model/user.php" />
+        <option value="$PROJECT_DIR$/application/config/environment.php" />
+        <option value="$PROJECT_DIR$/application/classes/helper.php" />
+        <option value="$PROJECT_DIR$/application/bootstrap.php" />
+        <option value="$PROJECT_DIR$/application/classes/format.php" />
+        <option value="$PROJECT_DIR$/application/config/local.php" />
+        <option value="$PROJECT_DIR$/modules/site/views/themes/promo/header.php" />
+        <option value="$PROJECT_DIR$/modules/site/views/themes/servicenow/header.php" />
+        <option value="$PROJECT_DIR$/application/views/promo/instructions.php" />
+        <option value="$PROJECT_DIR$/application/i18n/en.php" />
       </list>
     </option>
   </component>
@@ -934,11 +941,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1198,7 +1205,11 @@
       <created>1346821530351</created>
       <updated>1346821530351</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="current not working of server so I will just get the first array value on full name as first name.">
+      <created>1346822405688</created>
+      <updated>1346822405688</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1225,13 +1236,12 @@
     <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28212973" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" x="776" y="514" width="128" height="39" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.28183463" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" x="1923" y="1" width="315" height="777" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1240,6 +1250,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1283,7 +1294,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="allow for any string of phone numbers 7-20" />
+    <option name="LAST_COMMIT_MESSAGE" value="current not working of server so I will just get the first array value on full name as first name." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1296,7 +1307,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="order process coming along. Also got most of the German translation in place." />
     <MESSAGE value="add new images for nav banner" />
     <MESSAGE value="German instructions page view" />
     <MESSAGE value="changes to layout and setup of ordering system." />
@@ -1321,120 +1331,122 @@
     <MESSAGE value="fixed close button on form and fixed order form to not duplicate order users" />
     <MESSAGE value="german lead form update to contain close button" />
     <MESSAGE value="allow for any string of phone numbers 7-20" />
+    <MESSAGE value="current not working of server so I will just get the first array value on full name as first name." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/site/views/modal.php">
+    <entry file="file://$PROJECT_DIR$/application/classes/model/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="74" selection-end="74" vertical-scroll-proportion="0.057761732" />
+        <state line="438" column="32" selection-start="8707" selection-end="8707" vertical-scroll-proportion="-212.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="35" selection-start="2158" selection-end="2158" vertical-scroll-proportion="-15.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="192" selection-end="192" vertical-scroll-proportion="0.1732852">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/format.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="261" column="55" selection-start="6411" selection-end="6411" vertical-scroll-proportion="-15.4">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/site/views/promo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="13" selection-start="1165" selection-end="1179" vertical-scroll-proportion="0.0">
+        <state line="10" column="16" selection-start="155" selection-end="155" vertical-scroll-proportion="0.28880867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="315" selection-end="315" vertical-scroll-proportion="-14.08">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/site/views/themes/promo/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/promo/order_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="63" selection-end="267" vertical-scroll-proportion="-1.28">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/i18n/de.php">
+    <entry file="file://$PROJECT_DIR$/modules/site/views/themes/servicenow/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="18" selection-start="5264" selection-end="5264" vertical-scroll-proportion="-29.04">
+        <state line="17" column="42" selection-start="265" selection-end="265" vertical-scroll-proportion="-10.88">
+          <folding>
+            <element signature="e#6#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="31" selection-start="1662" selection-end="1662" vertical-scroll-proportion="-6.56">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/site.js">
+    <entry file="file://$PROJECT_DIR$/application/config/environment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="13" selection-start="1738" selection-end="1740" vertical-scroll-proportion="-15.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/kacela/classes/kohana/kacela.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="27" selection-start="838" selection-end="838" vertical-scroll-proportion="-11.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/site/classes/controller/promo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="44" selection-start="106" selection-end="106" vertical-scroll-proportion="-1.28">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/site/classes/controller/public.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="68" selection-end="68" vertical-scroll-proportion="2.56">
+        <state line="5" column="2" selection-start="85" selection-end="85" vertical-scroll-proportion="-3.2">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/controller/promo/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="10" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-21.76">
+        <state line="54" column="10" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-9.08">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/lead_form.php">
+    <entry file="file://$PROJECT_DIR$/application/i18n/de.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="193" selection-end="287" vertical-scroll-proportion="-2.56">
-          <folding>
-            <marker date="1346798653000" expanded="true" signature="544:571" placeholder="..." />
-            <marker date="1346798653000" expanded="true" signature="554:571" placeholder="..." />
-            <marker date="1346798653000" expanded="true" signature="767:784" placeholder="..." />
-            <marker date="1346798653000" expanded="true" signature="891:908" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/de/lead_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="102" selection-start="287" selection-end="287" vertical-scroll-proportion="-2.56">
+        <state line="104" column="4" selection-start="5237" selection-end="5248" vertical-scroll-proportion="-16.52">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/classes/kohana/valid.php">
+    <entry file="file://$PROJECT_DIR$/application/views/promo/packages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="345" column="25" selection-start="8083" selection-end="8083" vertical-scroll-proportion="-4.96">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/classes/model/lead.php">
+    <entry file="file://$PROJECT_DIR$/application/views/de/promo/instructions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="53" selection-end="53" vertical-scroll-proportion="-2.56">
+        <state line="2" column="25" selection-start="109" selection-end="126" vertical-scroll-proportion="-1.28">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/classes/model/user.php">
+    <entry file="file://$PROJECT_DIR$/application/views/promo/instructions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="453" column="0" selection-start="8952" selection-end="8952" vertical-scroll-proportion="0.715415">
+        <state line="2" column="104" selection-start="182" selection-end="182" vertical-scroll-proportion="-1.28">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/i18n/en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="37" selection-end="37" vertical-scroll-proportion="0.14440434">
           <folding />
         </state>
       </provider>

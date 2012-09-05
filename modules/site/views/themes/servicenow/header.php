@@ -5,7 +5,18 @@
  * @brief
  *
  */
-$home_url = \Helper::language() === 'de' ? 'http://www.matrix42.de' : 'http://www.matrix42.com';
+if(\Helper::language() === 'de')
+{
+	$home_url = 'http://www.matrix42.de';
+}
+elseif(\Helper::language() === 'en')
+{
+	$home_url = 'http://www.matrix42.eu';
+}
+else
+{
+	$home_url = 'http://www.matrix42.com';
+}
 ?>
 <!-- Begin Header -->
 <div id="main-nav" class="navbar navbar-fixed-top">

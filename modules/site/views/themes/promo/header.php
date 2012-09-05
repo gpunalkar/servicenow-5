@@ -9,6 +9,10 @@ if(\Helper::language() === 'de')
 {
 	$home_url = 'http://www.matrix42.de';
 }
+elseif(\Helper::language() === 'en')
+{
+	$home_url = 'http://www.matrix42.eu';
+}
 else
 {
 	$home_url = 'http://www.matrix42.com';
