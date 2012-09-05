@@ -4,7 +4,7 @@
     <list default="true" id="61617ff2-d36d-4acf-ae4c-bceb37abe954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/assets/vendor/lessphp" afterPath="$PROJECT_DIR$/modules/assets/vendor/lessphp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/model/lead.php" afterPath="$PROJECT_DIR$/application/classes/model/lead.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/model/user.php" afterPath="$PROJECT_DIR$/application/classes/model/user.php" />
     </list>
     <ignored path="servicenow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,15 +58,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/site.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="13" selection-start="1738" selection-end="1740" vertical-scroll-proportion="-15.230769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/controller/promo/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,10 +85,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lead.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lead.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/model/lead.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="241" column="48" selection-start="6661" selection-end="6661" vertical-scroll-proportion="0.14787431">
+            <state line="4" column="22" selection-start="53" selection-end="53" vertical-scroll-proportion="-2.56">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/classes/model/user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="453" column="0" selection-start="8952" selection-end="8952" vertical-scroll-proportion="0.715415">
               <folding />
             </state>
           </provider>
@@ -134,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/modules/site/classes/controller/site.php" />
         <option value="$PROJECT_DIR$/application/views/promo/products.php" />
         <option value="$PROJECT_DIR$/modules/site/classes/controller/public.php" />
         <option value="$PROJECT_DIR$/assets/less/vars.less" />
@@ -150,6 +149,7 @@
         <option value="$PROJECT_DIR$/application/classes/controller/promo/index.php" />
         <option value="$PROJECT_DIR$/application/views/de/lead_form.php" />
         <option value="$PROJECT_DIR$/application/classes/model/lead.php" />
+        <option value="$PROJECT_DIR$/application/classes/model/user.php" />
       </list>
     </option>
   </component>
@@ -1194,7 +1194,11 @@
       <created>1346821180422</created>
       <updated>1346821180422</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="allow for any string of phone numbers 7-20">
+      <created>1346821530351</created>
+      <updated>1346821530351</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1279,7 +1283,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="german lead form update to contain close button" />
+    <option name="LAST_COMMIT_MESSAGE" value="allow for any string of phone numbers 7-20" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1292,7 +1296,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="rearranged the promo site to include db data. Also setup lead form. New design layout. got rid of the subdomain route complexity." />
     <MESSAGE value="order process coming along. Also got most of the German translation in place." />
     <MESSAGE value="add new images for nav banner" />
     <MESSAGE value="German instructions page view" />
@@ -1317,16 +1320,12 @@
     <MESSAGE value="german translation changes" />
     <MESSAGE value="fixed close button on form and fixed order form to not duplicate order users" />
     <MESSAGE value="german lead form update to contain close button" />
+    <MESSAGE value="allow for any string of phone numbers 7-20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/promo/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="1031" selection-end="1031" vertical-scroll-proportion="-10.24" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/site/views/modal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="16" selection-start="74" selection-end="74" vertical-scroll-proportion="0.057761732" />
@@ -1428,7 +1427,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/model/lead.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="241" column="48" selection-start="6661" selection-end="6661" vertical-scroll-proportion="0.14787431">
+        <state line="4" column="22" selection-start="53" selection-end="53" vertical-scroll-proportion="-2.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/model/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="453" column="0" selection-start="8952" selection-end="8952" vertical-scroll-proportion="0.715415">
           <folding />
         </state>
       </provider>

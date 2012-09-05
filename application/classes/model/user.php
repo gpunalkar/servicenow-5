@@ -454,7 +454,8 @@ class User extends Model {
 
 		array_walk($names, 'trim');
 
-		$this->first = current($names);
+		//$this->first = current($names); //for some reason current is working on the server.
+		$this->first = $names[0];
 
 		$this->last = end($names);
 	}
