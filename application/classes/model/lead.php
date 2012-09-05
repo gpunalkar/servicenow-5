@@ -176,7 +176,7 @@ class Lead extends User
 		))
 			->rules('number', array(
 			array('not_empty'),
-			array('phone', array(':value', array(10))),
+			array('phone', array(':value')),
 		))
 			->callbacks(array(
 			'fail' => array
@@ -239,7 +239,7 @@ class Lead extends User
 			))
 			->rules('number', array(
 				array('not_empty'),
-				array('phone', array(':value', array(10))),
+				array('phone', array(':value')),
 			))
 			->rules('addons', array(
 				array('not_empty'),
