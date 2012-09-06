@@ -13,3 +13,6 @@
 [submodule "modules/assets/vendor/lessphp"]
 	path = modules/assets/vendor/lessphp
 	url = https://github.com/leafo/lessphp.git
+[submodule "modules/email"]
+	path = modules/email
+	url = https://github.com/shadowhand/email.git

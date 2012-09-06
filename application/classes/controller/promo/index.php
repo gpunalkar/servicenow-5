@@ -68,4 +68,25 @@ class Controller_Promo_Index extends Controller_Promo {
 		\Request::$current->redirect($uri);
 	}
 
+
+	public function action_test_email()
+	{
+
+		$header = \View::factory('email/_header')
+			->set('title', 'Test Send');
+		$footer = \View::factory('email/_footer');
+		$email_content = \View::factory('email/new_lead');
+
+		$message = \View::factory('email/_template')
+			->bind('header', $header)
+			->bind('footer', $footer)
+			->bind('content', $email_content);
+
+		// Send the email
+		$email = \Email::factory('Test Email')
+			->to('jeff.neslen@matrix42.com')
+			->from('info@matrix42.com')
+			->message($message->render(), 'text/html')
+			->send();
+	}
 }
