@@ -52,6 +52,7 @@
 				</div>
 				<div class="span4">
 					<div class="padded">
+						<?=$form->company->render()?>
 						<?=$form->message->render()?>
 						<?=$form->submit->render()?>
 					</div>

@@ -18,7 +18,7 @@ class Formo_Driver_Submit extends Formo_Driver {
 
 		$this->_view
 			->set_var('tag', 'button')
-			->attr('class', 'btn btn-primary btn-large')
+			->attr('class', 'btn btn-primary')
 			->attr('name', $this->name())
 			->attr('value', $value);
 

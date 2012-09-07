@@ -24,6 +24,7 @@ class Lead extends User
 		// Set the user variables
 		$lead->full_name = $form->name->val();
 		$lead->email = $form->email->val();
+		$lead->business_name = $form->company->val();
 		$lead->campaign_id = $form->campaign_id->val();
 		$lead->role = 'lead';
 		$lead->inquiry_date = time();
@@ -164,6 +165,7 @@ class Lead extends User
 			->add('campaign_id', 'hidden')
 			->add('name', array('label' => __('Full Name')))
 			->add('email', array('type' => 'email', 'label' => 'Email'))
+			->add('company', array('label' => __('Business Name')))
 			->add('number', array('label' => __('Phone Number')))
 			->add('message', 'textarea', array('label' => __('Message')))
 			->rules('name', array(
