@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 		if($('#lead-close').attr('data-reload') == 1)
 		{
-			window.location = '/lead_form/lead-form-anchor';
+			window.location = '/';
 		}
 		$('#lead-campaign_id').val($(this).attr('data-campaign'));
 		$('#lead-message').val($(this).attr('data-message'));
