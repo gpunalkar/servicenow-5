@@ -6,8 +6,8 @@
 		<div id="lead-form-anchor" class="span4"></div>
 		<div class="span4 contact-well">
 			<div class="padded padded-top">
-				<h3>Rückruf anfordern!</h3>
-				<p>Füllen Sie das Anfrageformular aus oder kontaktieren Sie uns auf herkömmlichem Wege.</p>
+				<h3>Für Demo registrieren und testen.</h3>
+				<p>Füllen Sie das Anfrageformular aus, oder kontaktieren Sie uns auf herkömmlichem Wege.</p>
 				<table>
 					<tr>
 						<td class="align-top"><h4>Anschrift:&nbsp;</h4></td>
