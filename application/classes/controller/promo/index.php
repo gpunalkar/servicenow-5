@@ -71,11 +71,13 @@ class Controller_Promo_Index extends Controller_Promo {
 
 	public function action_test_email()
 	{
+		$lead = \Kacela::find_one('lead', \Kacela::criteria()->equals('leads.id', '21'));
 
 		$header = \View::factory('email/_header')
 			->set('title', 'Test Send');
 		$footer = \View::factory('email/_footer');
-		$email_content = \View::factory('email/new_lead');
+		$email_content = \View::factory('email/new_lead')
+			->set('lead', $lead);
 
 		$message = \View::factory('email/_template')
 			->bind('header', $header)

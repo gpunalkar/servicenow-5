@@ -7,13 +7,13 @@
 				<tr>
 					<td width="250px" style="border-style: none; border-width: 0px;" align="left" valign="bottom" bgcolor="#FFFFFF">
 						<a href="http://www.facebook.com/matrix42page">
-							<img alt="facebook" style="display:block;float:left;" src="http://beta.matrix42.com/assets/img/icons/facebook-quiet.png" border="0" height="31" width="31" />
+							<img alt="facebook" style="display:block;float:left;margin-left:10px;" src="http://beta.matrix42.com/assets/img/icons/facebook-quiet.png" border="0" height="31" width="31" />
 						</a>
 						<a href="http://blog.matrix42.com">
-							<img alt="blog" style="display:block;float:left;" src="http://beta.matrix42.com/assets/img/icons/blog-quiet.png" border="0" height="31" width="31" />
+							<img alt="blog" style="display:block;float:left;margin-left:10px;" src="http://beta.matrix42.com/assets/img/icons/blog-quiet.png" border="0" height="31" width="31" />
 						</a>
 						<a href="https://twitter.com/matrix42man">
-							<img alt="twitter" style="display:block;float:left;" src="http://beta.matrix42.com/assets/img/icons/twitter-quiet.png" border="0" height="31" width="31" />
+							<img alt="twitter" style="display:block;float:left;margin-left:10px;" src="http://beta.matrix42.com/assets/img/icons/twitter-quiet.png" border="0" height="31" width="31" />
 						</a>
 
 					</td>
