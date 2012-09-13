@@ -16,7 +16,7 @@ class Controller_Public extends Controller_Site {
 
 		$lead_form->campaign_id->set('value', $this->_campaign);
 
-		if ($lead_form->load()->validate())
+		if($lead_form->load()->validate())
 		{
 			$complete = true;
 
@@ -44,7 +44,7 @@ class Controller_Public extends Controller_Site {
 
 		$lead_form->campaign_id->set('value', $this->_campaign);
 
-		if ($lead_form->load()->validate())
+		if($lead_form->load()->validate())
 		{
 			$complete = true;
 		}

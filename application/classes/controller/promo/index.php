@@ -21,8 +21,7 @@ class Controller_Promo_Index extends Controller_Promo {
 		$this->_content = \View::factory('promo/index', array('language' => true))
 			->set('products', $product_view)
 			->set('packages', $package_view)
-			->set('instructions', $instructions_view)
-			->set('lead_form', $this->lead_form(true));
+			->set('instructions', $instructions_view);
 	}
 
 	public function action_order()
