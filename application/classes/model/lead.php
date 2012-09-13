@@ -60,9 +60,10 @@ class Lead extends User
 			->bind('content', $email_content);
 
 		// Send the email
+		$email_address = \Helper::language() === 'en-us' ? 'leads@matrix42.com' : 'leads@matrix42.de';
 		$subject = 'New Matrix42 '.$lead->campaign->name.' Lead';
 		$email = \Email::factory($subject)
-			->to('jeff.neslen@matrix42.com')
+			->to($email_address)
 			->from('info@matrix42.com')
 			->message($message->render(), 'text/html')
 			->send();
@@ -119,7 +120,6 @@ class Lead extends User
 
 		$lead_order->add($products, true);
 
-		/*TODO: build an email to notify both customer and sales*/
 		// Start building the email
 		$header = \View::factory('email/_header')
 			->set('title', 'New Order');
@@ -134,9 +134,10 @@ class Lead extends User
 			->bind('footer', $footer)
 			->bind('content', $email_content);
 
+		$email_address = \Helper::language() === 'en-us' ? 'leads@matrix42.com' : 'leads@matrix42.de';
 		// Send the email
 		$email = \Email::factory('New Order')
-			->to('jeff.neslen@matrix42.com')
+			->to($email_address)
 			->from('info@matrix42.com')
 			->message($message->render(), 'text/html')
 			->send();

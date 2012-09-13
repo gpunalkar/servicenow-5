@@ -66,7 +66,7 @@
 		<?php endforeach; ?>
 		</td>
 		<td valign="top"><?=$lead_order->devices?></td>
-		<td valign="top">@ <?=__('$')?><?money_format('%i', $lead_order->promotion->promo_price)?></td>
+		<td valign="top">@ <?=__('$')?><?=money_format('%i', $lead_order->promotion->promo_price)?></td>
 	</tr>
 	<tr>
 		<td colspan="2"><strong style="color: #ff4c00;"><?=__('Your Estimated Cost')?>:</strong></td>
