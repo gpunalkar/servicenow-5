@@ -27,7 +27,7 @@
 	</tr>
 	<tr>
 		<td><strong><?=__('Inquiry Date')?>:</strong></td>
-		<td><?=$lead->inquiry_date?></td>
+		<td><?=\Format::date($lead->inquiry_date, 'human')?></td>
 	</tr>
 	<tr>
 		<td><strong><?=__('Campaign')?> Code:</strong></td>
