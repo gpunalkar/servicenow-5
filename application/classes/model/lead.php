@@ -48,26 +48,24 @@ class Lead extends User
 		$note->save();
 
 		// Start building the email
-		/*TODO: need to set up email system
+		$header = \View::factory('email/_header')
+			->set('title', 'New Lead');
+		$footer = \View::factory('email/_footer');
+		$email_content = \View::factory('email/new_lead')
+			->set('lead', $lead);
+
 		$message = \View::factory('email/_template')
 			->bind('header', $header)
 			->bind('footer', $footer)
 			->bind('content', $email_content);
 
-
-		$header = \View::factory('email/_header')
-			->set('title', 'Welcome to Lendio');
-		$footer = \View::factory('email/_footer');
-		$email_content = \View::factory('email/welcome')
-			->set('temp_password', $temp_password);
-
 		// Send the email
-		$email = \Email::factory('Welcome to Lendio')
-			->to($form->email->val())
-			->from('members@lendio.com')
+		$subject = 'New Matrix42 '.$lead->campaign->name.' Lead';
+		$email = \Email::factory($subject)
+			->to('jeff.neslen@matrix42.com')
+			->from('info@matrix42.com')
 			->message($message->render(), 'text/html')
 			->send();
-		*/
 	}
 
 	public function create_new_order($form)
@@ -122,6 +120,26 @@ class Lead extends User
 		$lead_order->add($products, true);
 
 		/*TODO: build an email to notify both customer and sales*/
+		// Start building the email
+		$header = \View::factory('email/_header')
+			->set('title', 'New Order');
+		$footer = \View::factory('email/_footer');
+		$email_content = \View::factory('email/new_order')
+			->set('lead', $lead)
+			->set('lead_order', $lead_order)
+			->set('products', $products);
+
+		$message = \View::factory('email/_template')
+			->bind('header', $header)
+			->bind('footer', $footer)
+			->bind('content', $email_content);
+
+		// Send the email
+		$email = \Email::factory('New Order')
+			->to('jeff.neslen@matrix42.com')
+			->from('info@matrix42.com')
+			->message($message->render(), 'text/html')
+			->send();
 	}
 
 	public function get_form($name = null)
