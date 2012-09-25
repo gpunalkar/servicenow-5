@@ -61,10 +61,11 @@ class Lead extends User
 
 		// Send the email
 		$email_address = \Helper::language() === 'en-us' ? 'leads@matrix42.com' : 'leads@matrix42.de';
+		$email_from = \Helper::language() === 'en-us' ? 'info@matrix42.com' : 'info@matrix42.de';
 		$subject = 'New Matrix42 '.$lead->campaign->name.' Lead';
 		$email = \Email::factory($subject)
 			->to($email_address)
-			->from('info@matrix42.com')
+			->from($email_from)
 			->message($message->render(), 'text/html')
 			->send();
 	}
@@ -135,10 +136,11 @@ class Lead extends User
 			->bind('content', $email_content);
 
 		$email_address = \Helper::language() === 'en-us' ? 'leads@matrix42.com' : 'leads@matrix42.de';
+		$email_from = \Helper::language() === 'en-us' ? 'info@matrix42.com' : 'info@matrix42.de';
 		// Send the email
 		$email = \Email::factory('New Order')
 			->to($email_address)
-			->from('info@matrix42.com')
+			->from($email_from)
 			->message($message->render(), 'text/html')
 			->send();
 	}

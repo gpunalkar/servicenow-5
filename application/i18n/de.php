@@ -108,4 +108,5 @@ return array
 	'Customer' => 'Kunde',
 	'$' => '€',
 	'device' => 'Lizenz',
+	'Source' => 'Quelle',
 );
