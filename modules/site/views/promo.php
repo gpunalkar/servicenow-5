@@ -35,7 +35,7 @@ defined('SYSPATH') OR die('No direct access allowed.');
 <div class="wrapper">
 	<?=$header?>
 	<?=$content?>
-	<div id="main-lead-form" class="container rel hidden">
+	<div id="main-lead-form" class="container rel<?=$lead_form_hide ? ' hidden' : ''?>">
 		<?=$lead_form?>
 	</div><!-- container -->
 	<?php if($modal): ?>

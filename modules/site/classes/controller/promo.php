@@ -7,7 +7,7 @@ class Controller_Promo extends Controller_Public {
 	protected $_section = 'promo';
 
 	protected $_theme_name = 'promo';
-
+F
 	public function before()
 	{
 		$this->_modal = true;

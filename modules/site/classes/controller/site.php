@@ -45,6 +45,7 @@ class Controller_Site extends Controller_Template
 	protected $_lead_form;
 	protected $_lead_form_render = true;
 	protected $_lead_download;
+	protected $_lead_form_hide = true;
 
 	protected $_chat;
 	public $chat_url;
@@ -167,6 +168,8 @@ class Controller_Site extends Controller_Template
 			$this->template->modal = $this->_modal_view;
 
 			$this->template->lead_form = $this->_lead_form_render ? $this->_lead_form : null;
+
+			$this->template->lead_form_hide = $this->_lead_form_hide;
 
 			$this->template->chat = $this->_chat;
 

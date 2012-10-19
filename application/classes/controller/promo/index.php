@@ -4,6 +4,14 @@ class Controller_Promo_Index extends Controller_Promo {
 
 	public function action_index()
 	{
+
+		$this->_lead_form_hide = false;
+
+		$this->_content = \View::factory('promo/expired', array('language' => true));
+	}
+
+	public function action_september()
+	{
 		$products = \Kacela::find_active('product', \Kacela::criteria()->equals('type', 'add-on'));
 
 		$product_view = \View::factory('promo/products')
