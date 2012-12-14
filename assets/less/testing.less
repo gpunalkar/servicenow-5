@@ -1,0 +1,116 @@
+@promo_img_path: '/assets/img/promo/';
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #e2e2e2;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+	margin: 0 0 10px 0;
+	.emphasis,
+	&.emphasis {
+		color: @matrix42_orange;
+	}
+	.secondary,
+	&.secondary {
+		color: @breadcrumb_color;
+	}
+	&.inverse {
+		color: #ffffff;
+	}
+}
+
+.rel {
+	position: relative;
+}
+
+.padded {
+	margin-left: 20px;
+}
+
+.per-device {
+	.right;
+	margin-top: -10px;
+	font-size: 8px;
+	line-height: 2px;
+}
+
+.navbar-inner {
+	background-color: #151D25;
+}
+
+.well {
+	&.plastic {
+		.shadowbox();
+		background: #ffffff url(@{img_path}plastic-well.gif) repeat-x top left;
+	}
+	&.dark {
+		.shadowbox();
+		background: @navbarBackgroundHighlight url(@{promo_img_path}blurlights.jpg) no-repeat center center;
+		color: #ffffff;
+		border-color: #333333;
+		.label {
+			color: #ffffff;
+		}
+	}
+	&.hot {
+		.shadowbox();
+		background: #ffd550 url(@{img_path}hot-well.png) repeat-x 0 0;
+		color: @navbarBackgroundHighlight;
+		border-color: @navbarBackgroundHighlight;
+	}
+	&.order-well {
+		height: 290px;
+	}
+}
+
+.btn-icon.btn-mini {
+	line-height: 24px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.h5-icon {
+	line-height: 30px;
+}
+
+#support {
+	h3, h4 {
+		line-height: 14px;
+	}
+}
+
+#boldchat {
+	span {
+		display: none;
+	}
+}
+
+#footer {
+	margin-top: 60px;
+	#copyright {
+		display: inline-block;
+		margin-top: 20px;
+		height: 60px;
+		width: 100%;
+		background: @titlebar_bg_color url(@{promo_img_path}footer-background.gif) repeat-x 0 0;
+		color: #999999;
+		#copyright-text {
+			margin-top: 20px;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+
+}

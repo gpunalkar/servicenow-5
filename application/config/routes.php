@@ -9,6 +9,10 @@ switch($_SERVER['SERVER_NAME'])
 	case 'promo.matrix42.de':
 		$directory = 'promo';
 		break;
+	case 'sandbox.matrix42.com':
+	case 'sandbox.matrix42.de':
+		$directory = 'testing';
+		break;
 	default:
 		$directory = 'promo';
 }
