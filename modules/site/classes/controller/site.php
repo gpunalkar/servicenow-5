@@ -154,6 +154,7 @@ class Controller_Site extends Controller_Template
 			$this->template->foot_analytics = \Analytics::factory('foot');
 
 			$this->template->nav->menu = \Menu::factory($role)->set_current($this->_get_current());
+			$this->template->sidenav = $this->template->nav->menu;
 
 			$this->template->banner = $this->_banner;
 
@@ -176,6 +177,16 @@ class Controller_Site extends Controller_Template
 		}
 
 		parent::after();
+	}
+
+	protected function _redirect_after_login()
+	{
+		if ($this->_user instanceof \Darth\Model\Client)
+		{
+			$this->request->redirect('member/');
+		}
+
+		$this->request->redirect('login');
 	}
 
 	protected function _get_current()

@@ -1,6 +1,8 @@
 $(document).ready(function() {
 	$(document).pngFix();
 
+	//$('#sidenav').affix();
+
 	if(window.location.href.indexOf("#side-lead-form-anchor") > -1) {
 		$('#side-lead-formc').show();
 	}

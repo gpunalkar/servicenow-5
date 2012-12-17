@@ -14,7 +14,7 @@ switch($_SERVER['SERVER_NAME'])
 		$directory = 'testing';
 		break;
 	default:
-		$directory = 'promo';
+		$directory = 'testing';
 }
 Route::set
 (

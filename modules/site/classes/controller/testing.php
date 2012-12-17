@@ -12,7 +12,7 @@ class Controller_Testing extends Controller_Public {
 	{
 		$this->_modal = true;
 
-		$this->_title = "Matrix42 Maintenance";
+		$this->_title = "Matrix42 Cloud Portal";
 
 		$this->_lead_form = $this->lead_form(true);
 
@@ -27,6 +27,8 @@ class Controller_Testing extends Controller_Public {
 		);
 
 		parent::before();
+
+		$this->_modal_button_name = 'Login';
 
 		$this->request->scripts(array('plugins/jquery.form'));
 	}

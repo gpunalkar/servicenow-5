@@ -20,13 +20,16 @@ else
 $home_url = \Helper::language() === 'de' ? 'http://www.matrix42.de' : 'http://www.matrix42.com';
 ?>
 <!-- Begin Header -->
-<div id="main-nav" class="navbar navbar-static-top">
+<div id="main-nav" class="navbar navbar-fluid-top">
 	<div class="navbar-inner">
 		<div class="container">
 			<div class="row-fluid">
 				<div id="logo" class="span3">
 					<a href="<?=$home_url?>"><img src="/assets/img/promo/matrix42-logo.png" alt="Matrix42" /></a>
 				</div><!-- logo -->
+				<div id="user-menu">
+					<a class="btn btn-info" data-title="Sign in" data-toggle="modal" href="/login">Sign in</a>
+				</div><!-- user-menu -->
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><!-- navbar-inner -->

@@ -34,25 +34,23 @@ defined('SYSPATH') OR die('No direct access allowed.');
 <body>
 <div class="wrapper">
 	<?=$header?>
-	<div class="container nav-pad">
+	<div class="container-fluid nav-pad">
 		<div class="row-fluid padded-top">
-			<div class="span8">
-				<?=$content?>
-			</div><!-- span8 -->
-			<div id="sidebar" class="span4">
-				<div id="support" class="well plastic">
-					<h2>Questions?</h2>
-					<h3>Contact us:</h3>
-					<h3 class="emphasis padded-top">(888) 694-2872</h3>
-					<h5 class="inline-block h5-icon"><a href="mailto:helpdesk.cloud@matrix42.com"><span class="icon email"></span>helpdesk.cloud@matrix42.com</a></h5>
-				</div>
+			<div id="sidebar" class="span2">
+				<?=$sidenav?>
 			</div><!-- sidebar -->
+			<div id="content" class="span10">
+				<?=$content?>
+			</div><!-- content -->
 		</div><!-- row-fluid -->
 	</div><!-- container -->
 </div><!-- wrapper -->
 <div id="footer">
 	<?=$footer?>
 </div><!-- footer -->
+<?php if($modal): ?>
+	<?=$modal?>
+<?php endif; ?>
 <!--[if lte IE 8]>
 <script type="text/javascript" src="/assets/js/plugins/css3-mediaqueries.js"></script>
 <![endif]-->
